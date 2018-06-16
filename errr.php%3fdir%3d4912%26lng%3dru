@@ -1,0 +1,22 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Admin</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="css/style1.css" rel="stylesheet" type="text/css">
+</head>
+<form name="form1" method="post" action="common/posterr.php">
+Если вы столкнулись с какой-либо проблемой при просмотре прямых трянсляций или записей на нашем сайте 
+или обнаружили ошибку в работе сайта, опишите характер возникшей неполадки, и наши специалисты устранят ее.
+<br>
+       <textarea name="err" cols="100" rows="5" ></textarea>
+        <input type="hidden" name="lng" value="ru">
+          <input type="hidden" name="dir" value="4912">
+<br> 
+       <input type="submit" name="del" value="Отправить сообщение">
+</form>
+
+</body>
+
+</html>

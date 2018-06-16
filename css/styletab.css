@@ -1,0 +1,14 @@
+table.recitem {
+	vertical-align: text-top;
+	display: inline;
+	background-color: #B3B4C1;
+	background-image: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	list-style-type: square;
+	list-style-position: inside;
+	border: solid 1px #9495a9;
+	margin:0px 3px 6px 3px;
+}

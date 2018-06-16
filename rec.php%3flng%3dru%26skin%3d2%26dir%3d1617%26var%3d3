@@ -1,0 +1,118 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Vidicor: Video-On-Line, Video-On-Demand, Video-On-Schedule ru</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="css/styletab.css" rel="stylesheet" type="text/css">
+<link href="css/style_main.css" rel="stylesheet" type="text/css"> 
+<link href="css/style2.css" rel="stylesheet" type="text/css"> 
+
+<SCRIPT language='JScript' id='recvjc' src='rmxfrecv.js'></SCRIPT>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+  var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+  if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script></head>
+
+<body><table bgcolor=#B3B4C1 border="1" width="100%" rules="none">
+  <tr>
+    <td width="80%" valign="middle" align="center">
+      <p><font size=2>
+        &copy; Cредства передачи видео через Интернет, примененные на этом сайте, разработаны
+        <a href="http://www.vidicor.ru">Научно-производственным центром "Vidicor Ltd."</a>
+        <br>на базе исследований 
+        <a href="/vslRu/index.htm" target="_blank"> 
+        Научно-исследовательского центра мультимедиа технологий</a>
+        <a href="http://www.imm.uran.ru">Института&nbsp;математики&nbsp;и&nbsp;механики</a>
+        <a href="http://www.uran.ru">Уральского&nbsp;отделения</a>
+        <a href="http://www.ras.ru">Российской&nbsp;академии&nbsp;наук</a>
+        </font> 
+      </p>
+    </td>
+	<td>
+	      <a href="http://vidicor.ru" target="_blank"><img width="60%"  src="/pictures/vidicor.jpg" ></a>
+	</td>
+  </tr>
+</table>
+<br/><!-- Кнопки "Выше" и "Наверх" -->
+
+<center>
+<table border=0 width="100%">
+  <tr>
+    <td width="20%" align="left">
+	<a href="main.php?skin=2&lng=ru"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('home','','lng/ru/images/home1.gif',1)" 
+	onMouseDown="MM_swapImage('home','','lng/ru/images/home3.gif',1)">
+	<img src="lng/ru/images/home2.gif" name="home"  border="0"  alt=""></a>
+      <a href="main.php?skin=2&dir=4981&lng=ru"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('up','','lng/ru/images/up1.gif',1)" 
+	onMouseDown="MM_swapImage('up','','lng/ru/images/up3.gif',1)">
+	<img src="lng/ru/images/up2.gif" name="up"  border="0"  alt=""></a>
+
+      &nbsp;
+    </td>
+
+    <td>
+
+<table border=0 width="100%" valign=top>
+  <tr valign=top>
+    <td width="100%" align="left" valign=top>
+      <a href="http://www.vidicor.ru" class=menu target="_blank">О системе</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/gb.shtml" class=menu target="_blank">Гостевая книга</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamRef.htm" class=menu target="_blank">Ссылки</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamPress.htm" class=menu target="_blank">Пресса о нас</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/VidicomViewer_help.htm" class=menu target="_blank">Помощь</a>
+      &nbsp;
+<a class=menu href=rec.php?lng=en&skin=2&dir=1617&var=3> <b>English</b> </a>    &nbsp;
+<font size=2>	<a href="http://vidicor.ru/SatReceiving.htm" target="_blank">[Как принимать спутниковую трансляцию?]</a> </font>
+    </td>
+  </tr>
+</table>
+    </td>
+</table>
+</center>
+<hr>
+
+<!-- ---------- Вывод видеоокна с атрибутами по шаблону download.vidicor.ru/ViewPage/page2.htm с параметрами rec_data_js.php ---------- -->
+<iframe id="idViewpageIframe" width="100%" height="1750" border="20" 
+        src="http://download.vidicor.ru/ViewPage/page2.htm?http://archive.vidicor.ru/rec_data_js.php?lng=ru&skin=2&dir=1617&var=3">
+</iframe>
+
+<script language="Javascript">
+//setInterval(function() { alert(document.frames('idViewpageIframe').document.body.scrollHeight); },3000);
+</script>
+
+</body>
+
+</html>

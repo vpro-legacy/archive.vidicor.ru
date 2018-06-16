@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<HEAD>
+<TITLE></TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+
+<SCRIPT language='JavaScript' type='text/javascript' src="rmxfrecv.js"></script>
+
+<SCRIPT language='JavaScript' type='text/javascript'><!--
+
+var outerWnd = null;
+var rmxfHash = "";
+var RMXF_scriptLoadedFlag = 0;
+
+function LoadRMXFViewer()
+{
+  outerWnd = window.parent;
+  if (!outerWnd) return;
+  rmxfHash = document.location.hash.substring(1);
+  if (!rmxfHash) return;
+  if (rmxfHash == "") return;
+  var s = rmxfHash.split("/", 3);
+  var rmxfHost = s[1];
+  if (!rmxfHost) return;
+  if (rmxfHost == "") return;
+  var rmxfOptions = s[2];
+  if (!rmxfOptions)
+    rmxfOptions = "";
+  var text = 'Loading JavaScript...';
+  if (lang == "ru")
+    text = 'Идет загрузка JavaScript...';
+  var el = document.getElementById('iframeText');
+  el.innerHTML = text;
+  RMXF_scriptLoadedFlag = 0;
+  var svrBase = '';
+
+  var urlRe = new RegExp("^([A-Za-z0-9]+://)?([^/:]+)(:\\d+)?(/[^#?]*)(\\?[^#]*)?(#.*)?$");
+  var urlReRes = urlRe.exec(document.location.href);
+
+  if (!urlReRes)
+    return;
+
+  var urlparse = new Object();
+  urlparse.str_port = RegExp.$3;
+  urlparse.port = (urlparse.str_port != '') ? ":" + parseInt(urlparse.str_port.substr(1)) : "";
+
+  if (rmxfOptions.indexOf("passive") < 0)
+    svrBase = "http://" + rmxfHost +  "/";
+ 
+  ExecuteScript(svrBase + 'rmxftag.js', function () { onScriptReadyStateChange(); });
+}
+
+
+function onScriptReadyStateChange()
+{
+  var el = document.getElementById('iframeText');
+  {
+    if (RMXF_scriptLoadedFlag == 1)
+    {
+      var text = 'ActiveX plugin loading...';
+      if (lang == "ru")
+        text = 'Загружаю плагин... ';
+      if (el) el.innerHTML = text + '<br><img src="loading.gif" width="30px" heigth="30px">';
+      RMXF_CreateTag(outerWnd, rmxfHash);
+    }
+    else
+    {
+      if (el) el.innerHTML = 'Source not answering!';
+      if (lang == "ru")
+        if (el) el.innerHTML = 'Источник не отвечает';
+      setTimeout('window.location.reload(false)', 5000);
+    }
+  }
+  return false;
+}
+
+//-->
+</SCRIPT>
+
+</HEAD>
+
+<BODY onLoad='LoadRMXFViewer()' bgColor='#ECE9D8' align=center>
+
+<CENTER>
+<SPAN id='iframeText'><SPAN>
+</CENTER>
+
+</BODY>
+</HTML>

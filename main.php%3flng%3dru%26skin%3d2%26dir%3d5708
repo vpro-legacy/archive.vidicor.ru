@@ -1,0 +1,2551 @@
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+<!-- ========================================== Начало вывода страницы ========================================== -->
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Vidicor: Video-On-Line, Video-On-Demand, Video-On-Schedule ru</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="css/styletab.css" rel="stylesheet" type="text/css">
+<link href="css/style_main.css" rel="stylesheet" type="text/css"> 
+<link href="css/style2.css" rel="stylesheet" type="text/css"> 
+
+<SCRIPT language='JScript' id='recvjc' src='rmxfrecv.js'></SCRIPT>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+  var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+  if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script></head>
+
+<body><table bgcolor=#B3B4C1 border="1" width="100%" rules="none">
+  <tr>
+    <td width="80%" valign="middle" align="center">
+      <p><font size=2>
+        &copy; Cредства передачи видео через Интернет, примененные на этом сайте, разработаны
+        <a href="http://www.vidicor.ru">Научно-производственным центром "Vidicor Ltd."</a>
+        <br>на базе исследований 
+        <a href="/vslRu/index.htm" target="_blank"> 
+        Научно-исследовательского центра мультимедиа технологий</a>
+        <a href="http://www.imm.uran.ru">Института&nbsp;математики&nbsp;и&nbsp;механики</a>
+        <a href="http://www.uran.ru">Уральского&nbsp;отделения</a>
+        <a href="http://www.ras.ru">Российской&nbsp;академии&nbsp;наук</a>
+        </font> 
+      </p>
+    </td>
+	<td>
+	      <a href="http://vidicor.ru" target="_blank"><img width="60%"  src="/pictures/vidicor.jpg" ></a>
+	</td>
+  </tr>
+</table>
+<br/><!-- Кнопки "Выше" и "Наверх" -->
+
+<center>
+<table border=0 width="100%">
+  <tr>
+    <td width="20%" align="left">
+	<a href="main.php?skin=2&lng=ru"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('home','','lng/ru/images/home1.gif',1)" 
+	onMouseDown="MM_swapImage('home','','lng/ru/images/home3.gif',1)">
+	<img src="lng/ru/images/home2.gif" name="home"  border="0"  alt=""></a>
+      <a href="main.php?skin=2&dir=5619&lng=ru"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('up','','lng/ru/images/up1.gif',1)" 
+	onMouseDown="MM_swapImage('up','','lng/ru/images/up3.gif',1)">
+	<img src="lng/ru/images/up2.gif" name="up"  border="0"  alt=""></a>
+
+      &nbsp;
+    </td>
+
+    <td>
+
+<table border=0 width="100%" valign=top>
+  <tr valign=top>
+    <td width="100%" align="left" valign=top>
+      <a href="http://www.vidicor.ru" class=menu target="_blank">О системе</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/gb.shtml" class=menu target="_blank">Гостевая книга</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamRef.htm" class=menu target="_blank">Ссылки</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamPress.htm" class=menu target="_blank">Пресса о нас</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/VidicomViewer_help.htm" class=menu target="_blank">Помощь</a>
+      &nbsp;
+<a class=menu href=main.php?lng=en&skin=2&dir=5708> <b>English</b> </a>    &nbsp;
+<font size=2>	<a href="http://vidicor.ru/SatReceiving.htm" target="_blank">[Как принимать спутниковую трансляцию?]</a> </font>
+    </td>
+  </tr>
+</table>
+    </td>
+</table>
+</center>
+
+<br/>
+
+<table valign="top" width="100%" cellpadding=0 cellspacing=0>
+<tr>
+        <td valign="top" align="left" width="0">
+        <div style="width:257px;max-width:257px;margin:0;padding:0;">
+
+<!-- Выдача перечня представлений -->
+<form name=search style="display:inline" method=POST action="main.php?lng=ru&skin=2&dir=5708">
+	<select size=1 name="select_skin" onChange="goto_page(this.options)">
+	<option   value=1> Афиша (обратно-хронологически)
+ <option selected value=2> Каталог с деревом (тематически)
+ <option   value=3> Каталог без дерева (тематически)
+ <option   value=4> Таблица без дерева
+ <option   value=5> Таблица с деревом
+ <option   value=6> Тестовое представление 1
+ <option   value=7> Тестовое представление 2
+ <option   value=8> Тестовое представление 3
+ 	</select>
+
+
+<!-- Поиск -->
+	<input type=text name=find_str value="" size=23>
+	<input type=submit value= Искать... >
+	
+</form>
+
+<!-- Приглашение к созданию/редактированию/удалению скинов -->
+	<script style="display:none">
+function goto_page(options) 
+	{
+	var url = options[options.selectedIndex].value;
+	var howdy = window.open("main.php?lng=ru&skin="+url, target="_top");
+	}
+</script>        </div>
+        </td>
+
+        <td valign="middle" align="center" width="100%" valign="bottom">
+
+<!-- ############################## Название ################################ -->
+        <font class=Name color=#2b0079>
+Молодежный развлекательный канал        </font>
+
+<!-- ############################## Маркер [Редактирование] ################################ -->
+                </font>
+
+        <center>(шаблон 2, скин 2)</center>
+
+        <br><br>
+        <center>
+        Кнопки с цифрами -- запуск проигрывания с разными уровнями качества<br>
+        Кнопки с желтой папкой -- войти в подраздел
+        </center>
+        </td>
+
+        </tr>
+</table>
+
+<br/>
+
+<center><font face=Arial size=2>
+Страницы: <big><big><b>[<a href='main.php?lng=ru&skin=2&dir=5708&pos=1#title_dir'>1</a>]</b></big></big>  <a href='main.php?lng=ru&skin=2&dir=5708&pos=2#title_dir'>2</a> </font></center><table border="0" style="width:100%;max-width:100%;margin:0;padding:0;cellpadding:0;cellspacing:0" cellpadding="0" cellspacing="0">
+        <tr>
+        <td id="idTreeShowTd" valign="top" style="background-color:#B3B4C1;padding:0;margin:0;" width="257"><div class="scroll_tree" align="left" ><UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=5619#title_dir' title='Каналы вещания компании "Видикор"'>  Каналы вещания компании "Видикор"</a><UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=6416#title_dir' title='Сборка видеороликов с Н.Н.Красовским'>  Сборка видеороликов с Н.Н.Красовским</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6405#title_dir' title='Телеканал посвященный 85-летию академика Красовского Н.Н'>  Телеканал посвященный 85-летию академика Красовского Н.Н</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6248#title_dir' title='Телевещание разных компаний системами "Видикор"'>  Телевещание разных компаний системами "Видикор"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6116#title_dir' title='Канал "Православие"'>  Канал "Православие"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6071#title_dir' title='Спортивный канал'>  Спортивный канал</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5849#title_dir' title='Канал ТАСС-Прогноз'>  Канал ТАСС-Прогноз</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5725#title_dir' title='Научно-популярный канал'>  Научно-популярный канал</a><LI> <a class=A1 href='main.php?skin=2&dir=5619&lng=ru#title_dir' title='Молодежный развлекательный канал'> <b>[-] Молодежный развлекательный канал</b></a><UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=4953#title_dir' title='Опера Ж.Бизе "Кармен"  Фрагменты'>  Опера Ж.Бизе "Кармен"  Фрагменты</a></UL></UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=5174#title_dir' title='Сеть живых камер и ретрансляций'>  Сеть живых камер и ретрансляций</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4730#title_dir' title='Архив видеозаписей'>  Архив видеозаписей</a></UL></div>
+        </td>
+        <td id="idItemsTd" align="center" valign="top" 
+                style="margin:0;padding:0;width:expression((document.body.clientWidth - 257) + 'px');min-width:width:expression((document.body.clientWidth - document.getElementById('idTreeShowTd').clientWidth) + 'px');">
+
+<!-- ####################################### Вывод основной части ######################################## -->
+
+                <!-- ----------------------------------------------------------------------------- -->
+                <table bgcolor=#99CCFF class="recitem" border=1 width=100% Title="Set of objects">
+                <!-- ----------------------------------------------------------------------------- -->
+
+                
+        <center>
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=5792&var=1"><img src=http://www.usmga.ru/simages/des1.gif  height=144 width=180  alt=id=5792 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=5792&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5792&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Прямая трансляция КВН-шоу «Уральские горы юмора» проведена УГГУ с помощью системы "Видикор"		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5792)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+28.11.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=4719&var=1"><img src=/picForArch/0047_TASS_PROGNOZ_06/pictp_20070412.jpg  height=144 width=180  alt=id=4719 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=4719&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4719&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4719&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4719&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Год русского языка		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4719)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+11.04.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=4715&var=1"><img src=/picForArch/0047_TASS_PROGNOZ_06/pictp_20070408.jpg  height=144 width=180  alt=id=4715 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=4715&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4715&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4715&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4715&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		«Зеленый змий» - бич России		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4715)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+08.04.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=4676&var=1"><img src=/picForArch/0047_TASS_PROGNOZ_06/pictp_20070325.jpg  height=144 width=180  alt=id=4676 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=4676&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4676&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4676&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4676&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Пивное поколение		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4676)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+25.03.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=4609&var=1"><img src=/picForArch/0047_TASS_PROGNOZ_06/pictp_20070221.jpg  height=144 width=180  alt=id=4609 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=4609&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4609&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4609&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4609&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Берегите мужчин!		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4609)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+20.02.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=4525&var=1"><img src=/picForArch/0047_TASS_PROGNOZ_06/picTP_20070115.jpg  height=144 width=180  alt=id=4525 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=4525&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4525&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4525&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4525&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Для чего нужна "полиция нравов"? 		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4525)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+14.01.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=4510&var=1"><img src=/picForArch/0047_TASS_PROGNOZ_06/pictp_20061221.jpg  height=144 width=180  alt=id=4510 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=4510&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4510&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4510&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4510&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Качество водки и госмонополия на ее производство		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4510)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+01.01.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3839&var=1"><img src=/picForArch/0046_IDELF_06/picid2_02.jpg  height=144 width=180  alt=id=3839 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3839&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3839&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3839&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Международная выставка продукции военного назначения сухопутных войск
+<br>
+МВСВ-2006
+<br>
+Часть 2<br>
+Видеосигнал iTV 
+
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3839)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+04.08.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3840&var=1"><img src=/picForArch/0046_IDELF_06/picid2_03.jpg  height=144 width=180  alt=id=3840 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3840&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3840&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3840&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Международная выставка продукции военного назначения сухопутных войск
+<br>
+МВСВ-2006
+<br>
+Часть 3<br>
+Видеосигнал iTV 
+
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3840)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+04.08.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3788&var=1"><img src=/picForArch/0044_Tagil_Expoarms/picTagil_01.jpg  height=144 width=180  alt=id=3788 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3788&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3788&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3788&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3788&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Научно-производственный центр<br>
+"Видикор"
+<br>
+Часть 5<br>
+Сюжет Тагил-TV		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3788)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+10.07.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3693&var=1"><img src=/picForArch/0044_Tagil_Expoarms/picRea15_01.jpg  height=144 width=180  alt=id=3693 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3693&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3693&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3693&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Научно-производственный центр<br>
+"Видикор"
+<br>
+Часть 3		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3693)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+10.07.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3566&var=1"><img src=/picForArch/0040_KVN_06/picKVN_01.jpg  height=144 width=180  alt=id=3566 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3566&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3566&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3566&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3566&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Начало		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3566)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+17.06.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3564&var=1"><img src=/picForArch/0040_KVN_06/picKVN_00.jpg  height=144 width=180  alt=id=3564 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3564&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3564&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3564&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3564&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Приветствие		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3564)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+17.06.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3555&var=1"><img src=/picForArch/0040_KVN_06/picKvnNew_01.jpg  height=144 width=180  alt=id=3555 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3555&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3555&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3555&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3555&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Из хроники -- 1		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3555)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+17.06.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=5828&var=1"><img src=/picForArch/0040_KVN_06/picKvnNew_01.jpg  height=144 width=180  alt=id=5828 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=5828&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5828&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5828&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5828&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Из хроники -- 2		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5828)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+17.06.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=5830&var=1"><img src=/picForArch/0040_KVN_06/picKvnNew_01.jpg  height=144 width=180  alt=id=5830 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=5830&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5830&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5830&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5830&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Из хроники -- 3		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5830)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+17.06.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=5832&var=1"><img src=/picForArch/0040_KVN_06/picKvnNew_01.jpg  height=144 width=180  alt=id=5832 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=5832&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5832&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5832&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5832&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Из хроники -- 4		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5832)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+17.06.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=5834&var=1"><img src=/picForArch/0040_KVN_06/picKvnNew_01.jpg  height=144 width=180  alt=id=5834 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=5834&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5834&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5834&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5834&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Из хроники -- 5		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5834)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+17.06.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=5836&var=1"><img src=/picForArch/0040_KVN_06/picKvnNew_01.jpg  height=144 width=180  alt=id=5836 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=5836&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5836&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5836&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5836&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Из хроники -- 6		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5836)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+17.06.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=5838&var=1"><img src=/picForArch/0040_KVN_06/picKvnNew_01.jpg  height=144 width=180  alt=id=5838 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=5838&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5838&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5838&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5838&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Из хроники -- 7		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5838)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+17.06.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=5840&var=1"><img src=/picForArch/0040_KVN_06/picKvnNew_01.jpg  height=144 width=180  alt=id=5840 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=5840&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5840&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5840&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5840&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Из хроники -- 8		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5840)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+17.06.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=5842&var=1"><img src=/picForArch/0040_KVN_06/picKvnNew_01.jpg  height=144 width=180  alt=id=5842 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=5842&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5842&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5842&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=5842&var=4>
+				<img src="pictures/4.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Из хроники -- 9		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5842)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+17.06.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3648&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_02.jpg  height=144 width=180  alt=id=3648 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3648&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3648&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3648&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 2<br>
+Капелла мальчиков и юношей, г. Екатеринбург
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3648)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3649&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_03.jpg  height=144 width=180  alt=id=3649 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3649&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3649&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3649&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 3<br>
+Ансамбль танца "Орлята"<br>Красноярский край, Россия		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3649)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3650&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_04.jpg  height=144 width=180  alt=id=3650 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3650&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3650&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3650&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 4<br>
+Оркестр народного инструмента<br>Детская государственная филармония<br>г.Екатеринбург		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3650)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3651&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_05.jpg  height=144 width=180  alt=id=3651 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3651&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3651&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3651&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 5<br>
+Детская церковно-певческая школа патриаршьего подворья "Актаиф"		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3651)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3652&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_06.jpg  height=144 width=180  alt=id=3652 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3652&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3652&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3652&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 6<br>
+"Карибские вариации"<br>Молодежная группа "Ветер Ферентино", Италия		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3652)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3653&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_07.jpg  height=144 width=180  alt=id=3653 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3653&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3653&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3653&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 7<br>
+"Счастливое детство"<br>Узбекистан		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3653)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3654&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_08.jpg  height=144 width=180  alt=id=3654 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3654&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3654&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3654&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 8<br>
+Народная капелла бандуристок "Украиночка"<br>Украина		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3654)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3655&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_09.jpg  height=144 width=180  alt=id=3655 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3655&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3655&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3655&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 9<br>
+"Я слышу другой голос"<br>Армения		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3655)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3656&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_10.jpg  height=144 width=180  alt=id=3656 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3656&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3656&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3656&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 10<br>
+композиция "Мир красоты"		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3656)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3657&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_11.jpg  height=144 width=180  alt=id=3657 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3657&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3657&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3657&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 11<br>
+Ансамбль скрипачей<br>Детская государственная филармония, Екатеринбург		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3657)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3658&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_12.jpg  height=144 width=180  alt=id=3658 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3658&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3658&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3658&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 12<br>
+"Гавана"<br>Ансамбль "Стелла-Брас", Австрия		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3658)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3659&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_13.jpg  height=144 width=180  alt=id=3659 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3659&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3659&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3659&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 13<br>
+"Степные беркуты"<br>Образцовый ансамбль танца "Карнавал"<br>Казахстан		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3659)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3660&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_14.jpg  height=144 width=180  alt=id=3660 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3660&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3660&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3660&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 14<br>
+композиция "Хочется гулять"		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3660)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3661&var=1"><img src=/picForArch/0030_Festival_06/Disk/picFest_15.jpg  height=144 width=180  alt=id=3661 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3661&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3661&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3661&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 15<br>"Кыргызстан"<br>Образцовый театрализованный детский хор "Акшола"		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3661)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3382&var=1"><img src=/picForArch/0030_FESTIVAL_06/picFest_14.jpg  height=144 width=180  alt=id=3382 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3382&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3382&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3382&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 14		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3382)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3379&var=1"><img src=/picForArch/0030_FESTIVAL_06/picFest_11.jpg  height=144 width=180  alt=id=3379 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3379&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3379&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3379&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 11		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3379)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3921&var=1"><img src=picForArch/0021_LyzhRoss_06/picLR_08.jpg  height=144 width=180  alt=id=3921 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3921&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3921&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3921&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Лыжня России-2006<br>
+Полигон "Старатель"<br> 
+Свердловской области
+<br>
+Часть 8
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3921)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+04.02.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=3913&var=1"><img src=picForArch/0021_LyzhRoss_06/picLR_03.jpg  height=144 width=180  alt=id=3913 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=3913&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3913&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=3913&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Лыжня России-2006<br>
+Полигон "Старатель"<br> 
+Свердловской области
+<br>
+Часть 3		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=3913)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+04.02.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=1321&var=1"><img src=pics/picmayway_01.jpg  height=144 width=180  alt=id=1321 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=1321&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1321&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1321&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		XXII традиционная <br> 
+"Майская Прогулка - 2005"<br>
+Видео и фото <br>
+фрагменты <br>		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=1321)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+14.05.2005		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=1589&var=1"><img src=pics/picLuk22_02.jpg  height=144 width=180  alt=id=1589 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=1589&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1589&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1589&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Праздничный концерт: <br>
+Выступление квартета <br>
+"Non-stop" <br>
+Часть 2<br>		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=1589)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+01.04.2005		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=1588&var=1"><img src=pics/picLuk22_01.jpg  height=144 width=180  alt=id=1588 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=1588&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1588&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1588&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Праздничный концерт: <br>
+Выступление квартета <br>
+"Non-stop" <br>
+Часть 1<br>		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=1588)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+01.04.2005		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=1590&var=1"><img src=pics/picLuk22_03.jpg  height=144 width=180  alt=id=1590 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=1590&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1590&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1590&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Выступление Образцового оркестра Штаба ПУРВО.
+Руководитель: подполковник Александр Павлов
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=1590)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+01.04.2005		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=1490&var=1"><img src=pics/11111111111111111111111111pic_02.jpg  height=144 width=180  alt=id=1490 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=1490&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1490&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1490&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 2		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=1490)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+25.03.2004		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=1484&var=1"><img src=pics/11concert2.jpg  height=144 width=180  alt=id=1484 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=1484&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1484&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1484&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Концерт, ч.2		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=1484)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+08.03.2004		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=1483&var=1"><img src=pics/11concert1.jpg  height=144 width=180  alt=id=1483 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=1483&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1483&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1483&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Пурим. Концерт, ч.1		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=1483)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+08.03.2004		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=1229&var=1"><img src=pics/1Perechod1.JPG  height=144 width=180  alt=id=1229 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=1229&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1229&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1229&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Андеграунд Екатеринбурга<br>		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=1229)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+07.03.2004		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=1436&var=1"><img src=pics/Rock.jpg  height=144 width=180  alt=id=1436 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=1436&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1436&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1436&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Новое поколение уральского рока. Рок-фестиваль		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=1436)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+15.02.2004		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=1435&var=1"><img src=pics/Rock1.jpg  height=144 width=180  alt=id=1435 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=1435&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1435&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=1435&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Новое поколение уральского рока. Рок-фестиваль		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=1435)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+15.02.2004		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+        </table>
+        </center>
+        </td>
+        </tr>
+        </table>
+        </center>1..50
+<center><font face=Arial size=2>
+Страницы: <big><big><b>[<a href='main.php?lng=ru&skin=2&dir=5708&pos=1#title_dir'>1</a>]</b></big></big>  <a href='main.php?lng=ru&skin=2&dir=5708&pos=2#title_dir'>2</a> </font><br>
+</center>
+    <a href="errr.php?dir=5708&lng=ru" class=menu>[Сообщить об ошибке]</a>
+    &nbsp;&nbsp;&nbsp;
+<a href=adminstart2.php?lng=ru&skin=2&dir=5708 class=menu>[Администрировать]</a>
+<br>
+<br>
+
+<center>
+<table width="100%" bgcolor='#CCCCCC'>
+<td>
+<font face=Arial size=1>
+        (c) НПЦ Видикор, 2008.
+</font>
+</td>
+</table>
+</center></body>
+</html>

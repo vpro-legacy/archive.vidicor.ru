@@ -1,0 +1,660 @@
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+<!-- ========================================== Начало вывода страницы ========================================== -->
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Vidicor: Video-On-Line, Video-On-Demand, Video-On-Schedule ru</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="css/styletab.css" rel="stylesheet" type="text/css">
+<link href="css/style_main.css" rel="stylesheet" type="text/css"> 
+<link href="css/style2.css" rel="stylesheet" type="text/css"> 
+
+<SCRIPT language='JScript' id='recvjc' src='rmxfrecv.js'></SCRIPT>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+  var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+  if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script></head>
+
+<body><table bgcolor=#B3B4C1 border="1" width="100%" rules="none">
+  <tr>
+    <td width="80%" valign="middle" align="center">
+      <p><font size=2>
+        &copy; Cредства передачи видео через Интернет, примененные на этом сайте, разработаны
+        <a href="http://www.vidicor.ru">Научно-производственным центром "Vidicor Ltd."</a>
+        <br>на базе исследований 
+        <a href="/vslRu/index.htm" target="_blank"> 
+        Научно-исследовательского центра мультимедиа технологий</a>
+        <a href="http://www.imm.uran.ru">Института&nbsp;математики&nbsp;и&nbsp;механики</a>
+        <a href="http://www.uran.ru">Уральского&nbsp;отделения</a>
+        <a href="http://www.ras.ru">Российской&nbsp;академии&nbsp;наук</a>
+        </font> 
+      </p>
+    </td>
+	<td>
+	      <a href="http://vidicor.ru" target="_blank"><img width="60%"  src="/pictures/vidicor.jpg" ></a>
+	</td>
+  </tr>
+</table>
+<br/><!-- Кнопки "Выше" и "Наверх" -->
+
+<center>
+<table border=0 width="100%">
+  <tr>
+    <td width="20%" align="left">
+	<a href="main.php?skin=2&lng=ru"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('home','','lng/ru/images/home1.gif',1)" 
+	onMouseDown="MM_swapImage('home','','lng/ru/images/home3.gif',1)">
+	<img src="lng/ru/images/home2.gif" name="home"  border="0"  alt=""></a>
+      <a href="main.php?skin=2&dir=4845&lng=ru"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('up','','lng/ru/images/up1.gif',1)" 
+	onMouseDown="MM_swapImage('up','','lng/ru/images/up3.gif',1)">
+	<img src="lng/ru/images/up2.gif" name="up"  border="0"  alt=""></a>
+
+      &nbsp;
+    </td>
+
+    <td>
+
+<table border=0 width="100%" valign=top>
+  <tr valign=top>
+    <td width="100%" align="left" valign=top>
+      <a href="http://www.vidicor.ru" class=menu target="_blank">О системе</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/gb.shtml" class=menu target="_blank">Гостевая книга</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamRef.htm" class=menu target="_blank">Ссылки</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamPress.htm" class=menu target="_blank">Пресса о нас</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/VidicomViewer_help.htm" class=menu target="_blank">Помощь</a>
+      &nbsp;
+<a class=menu href=main.php?lng=en&skin=2&dir=5331> <b>English</b> </a>    &nbsp;
+<font size=2>	<a href="http://vidicor.ru/SatReceiving.htm" target="_blank">[Как принимать спутниковую трансляцию?]</a> </font>
+    </td>
+  </tr>
+</table>
+    </td>
+</table>
+</center>
+
+<br/>
+
+<table valign="top" width="100%" cellpadding=0 cellspacing=0>
+<tr>
+        <td valign="top" align="left" width="0">
+        <div style="width:257px;max-width:257px;margin:0;padding:0;">
+
+<!-- Выдача перечня представлений -->
+<form name=search style="display:inline" method=POST action="main.php?lng=ru&skin=2&dir=5331">
+	<select size=1 name="select_skin" onChange="goto_page(this.options)">
+	<option   value=1> Афиша (обратно-хронологически)
+ <option selected value=2> Каталог с деревом (тематически)
+ <option   value=3> Каталог без дерева (тематически)
+ <option   value=4> Таблица без дерева
+ <option   value=5> Таблица с деревом
+ <option   value=6> Тестовое представление 1
+ <option   value=7> Тестовое представление 2
+ <option   value=8> Тестовое представление 3
+ 	</select>
+
+
+<!-- Поиск -->
+	<input type=text name=find_str value="" size=23>
+	<input type=submit value= Искать... >
+	
+</form>
+
+<!-- Приглашение к созданию/редактированию/удалению скинов -->
+	<script style="display:none">
+function goto_page(options) 
+	{
+	var url = options[options.selectedIndex].value;
+	var howdy = window.open("main.php?lng=ru&skin="+url, target="_top");
+	}
+</script>        </div>
+        </td>
+
+        <td valign="middle" align="center" width="100%" valign="bottom">
+
+<!-- ############################## Название ################################ -->
+        <font class=Name color=#2b0079>
+Передача «Открытый диалог» самарской ТРК «Скат»:
+часовой четырехсторонний видеомост вице-спикера Государственной думы В.В.Жириновского
+        </font>
+
+<!-- ############################## Маркер [Редактирование] ################################ -->
+                </font>
+
+        <center>(шаблон 2, скин 2)</center>
+
+        <br><br>
+        <center>
+        Кнопки с цифрами -- запуск проигрывания с разными уровнями качества<br>
+        Кнопки с желтой папкой -- войти в подраздел
+        </center>
+        </td>
+
+        </tr>
+</table>
+
+<br/>
+
+<center><font face=Arial size=2>
+</font></center><table border="0" style="width:100%;max-width:100%;margin:0;padding:0;cellpadding:0;cellspacing:0" cellpadding="0" cellspacing="0">
+        <tr>
+        <td id="idTreeShowTd" valign="top" style="background-color:#B3B4C1;padding:0;margin:0;" width="257"><div class="scroll_tree" align="left" ><UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=5619#title_dir' title='Каналы вещания компании "Видикор"'>  Каналы вещания компании "Видикор"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5174#title_dir' title='Сеть живых камер и ретрансляций'>  Сеть живых камер и ретрансляций</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4730#title_dir' title='Архив видеозаписей'>  Архив видеозаписей</a><UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=6488#title_dir' title='Видеоархивы Президиума УрО РАН'>  Видеоархивы Президиума УрО РАН</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5259#title_dir' title='Государственный демонстрационно-выставочный центр.
+Нижний Тагил, пос.Старатель'>  Государственный демонстрационно-выставочный центр.  Нижний Тагил, пос.Старатель</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5001#title_dir' title='Пресс-центр информационного агентства
+"Интерфакс-Урал"'>  Пресс-центр информационного агентства  "Интерфакс-Урал"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4981#title_dir' title='ИТАР-ТАСС-Урал'>  ИТАР-ТАСС-Урал</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4960#title_dir' title='Спорт
+'>  Спорт  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4934#title_dir' title='Музыка и кино'>  Музыка и кино</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4917#title_dir' title='
+Жизнь Екатеринбурга
+'>    Жизнь Екатеринбурга  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4912#title_dir' title='Религия
+'>  Религия  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4845#title_dir' title='
+Экономика и политика
+'>    Экономика и политика  </a><UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=6366#title_dir' title='11-13 сентября на полигоне ""Старатель" Нижнетагильского института испытания металлов проходит II Уральская промышленная выставка "УралМеталлЭкспо 2008"'>  11-13 сентября на полигоне ""Старатель" Нижнетагильского института испытания металлов проходит II Уральская промышленная выставка "УралМеталлЭкспо 2008"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6265#title_dir' title='Конференция фурнала "Деловой квартал" Маркетинг услуг: продавая незримое
+
+ТЕМЫ КОНФЕРЕНЦИИ: 
+- Чем отличается маркетинг услуг от маркетинга товаров?
+- На что делать ставку: на стандартизацию бизнес-процессов или персонал? 
+- Особенности рекламы услуг
+- Продвижение через Интернет
+- Партизанский маркетинг услуг 
+- Маркетинг без бюджета'>  Конференция фурнала "Деловой квартал" Маркетинг услуг: продавая незримое    ТЕМЫ КОНФЕРЕНЦИИ:   - Чем отличается маркетинг услуг от маркетинга товаров?  - На что делать ставку: на стандартизацию бизнес-процессов или персонал?   - Особенности рекламы услуг  - Продвижение через Интернет  - Партизанский маркетинг услуг   - Маркетинг без бюджета</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5737#title_dir' title='3-я Юбилейная Урало-Сибирская научно-промышленная выставка
+'>  3-я Юбилейная Урало-Сибирская научно-промышленная выставка  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5222#title_dir' title='REARMS-2006
+5-я Международная выставка вооружения, военной техники и боеприпасов '>  REARMS-2006  5-я Международная выставка вооружения, военной техники и боеприпасов </a><LI> <a class=A1 href='main.php?skin=2&dir=4845&lng=ru#title_dir' title='Передача «Открытый диалог» самарской ТРК «Скат»:
+часовой четырехсторонний видеомост вице-спикера Государственной думы В.В.Жириновского
+'> <b>[-] Передача «Открытый диалог» самарской ТРК «Скат»:
+часовой четырехсторонний видеомост вице-спикера Государственной думы В.В.Жириновского
+</b></a><UL></UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=5322#title_dir' title='Видео-мосты с губернатором Самарской области'>  Видео-мосты с губернатором Самарской области</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5321#title_dir' title='Выставка-форум
+"ЭнергоПромЭкспо-2006"
+'>  Выставка-форум  "ЭнергоПромЭкспо-2006"  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5318#title_dir' title='Конференция
+"Безопасность и здоровье на производстве"'>  Конференция  "Безопасность и здоровье на производстве"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5314#title_dir' title='VII съезд партии
+"Единая Россия"'>  VII съезд партии  "Единая Россия"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5304#title_dir' title='НПО "Уралсистем" - 40 лет!'>  НПО "Уралсистем" - 40 лет!</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5303#title_dir' title='VI Международная выставка-форум
+"ИнфоКоммуникации России - XXI век"/
+
+"ИнфоКом - 2006"
+'>  VI Международная выставка-форум  "ИнфоКоммуникации России - XXI век"/    "ИнфоКом - 2006"  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5302#title_dir' title='Выставка передвижной медицинской техники
+"Здравоохранение Уральского федерального округа"
+'>  Выставка передвижной медицинской техники  "Здравоохранение Уральского федерального округа"  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5242#title_dir' title='Международная выставка продукции военного назначения сухопутных войск
+
+МВСВ-2006
+
+Москва,
+Красноармейск'>  Международная выставка продукции военного назначения сухопутных войск    МВСВ-2006    Москва,  Красноармейск</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5214#title_dir' title='XII межрегиональная общепромышленная научно-техническая выставка
+"Урал- Техно. Наука. Бизнес-2006" 
+'>  XII межрегиональная общепромышленная научно-техническая выставка  "Урал- Техно. Наука. Бизнес-2006"   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5212#title_dir' title='Совещание губернатора Э.Э.Росселя с руководителями отраслевых научных и проектных институтов, технопарков, инновационных и научных организаций Среднего Урала 
+
+'>  Совещание губернатора Э.Э.Росселя с руководителями отраслевых научных и проектных институтов, технопарков, инновационных и научных организаций Среднего Урала     </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5210#title_dir' title='Пилотный проект-семинар:
+"Развитие инновационной активности регионов"
+'>  Пилотный проект-семинар:  "Развитие инновационной активности регионов"  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5209#title_dir' title='III-й Евро-Азиатский Форум
+"Связь-ПромЭкспо 2006"'>  III-й Евро-Азиатский Форум  "Связь-ПромЭкспо 2006"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5191#title_dir' title='Заседание Совета УрФО по вопросу
+"Информационно-коммуникационные технологии в реализации приоритетных национальных проектов на территории УрФО"'>  Заседание Совета УрФО по вопросу  "Информационно-коммуникационные технологии в реализации приоритетных национальных проектов на территории УрФО"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5190#title_dir' title='Научно-практическая конференция
+"Инновации в сфере промышленной и технологической автоматизации"'>  Научно-практическая конференция  "Инновации в сфере промышленной и технологической автоматизации"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5181#title_dir' title='Венчурная
+выставка-ярмарка "Инновации-2005"'>  Венчурная  выставка-ярмарка "Инновации-2005"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5177#title_dir' title='Всероссийская выставка-форум 
+"Регионы России. Научно-технический потенциал страны и практика его использования"'>  Всероссийская выставка-форум   "Регионы России. Научно-технический потенциал страны и практика его использования"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5173#title_dir' title='Казань - 1000!'>  Казань - 1000!</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5172#title_dir' title='V международная выставка-форум «ИнфоКом-2005»'>  V международная выставка-форум «ИнфоКом-2005»</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5017#title_dir' title='Выездное заседание Совета по научно-технической политике и инновационной деятельности УрФО'>  Выездное заседание Совета по научно-технической политике и инновационной деятельности УрФО</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4999#title_dir' title='Магистраль-2005:
+
+3-я Уральская выставка
+железнодорожного транспорта
+и дорожно-строительной техники
+г.Нижний Тагил Свердловской области, полигон "Старатель'>  Магистраль-2005:    3-я Уральская выставка  железнодорожного транспорта  и дорожно-строительной техники  г.Нижний Тагил Свердловской области, полигон "Старатель</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4998#title_dir' title='Выставка,
+посвященная
+1000-летию Казани
+Технопарк "Идея"
+г.Казань'>  Выставка,  посвященная  1000-летию Казани  Технопарк "Идея"  г.Казань</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4995#title_dir' title='Демонстрация системы
+Интернет-видеосвязи
+"Vidicom"
+руководству компании
+"Baltman"'>  Демонстрация системы  Интернет-видеосвязи  "Vidicom"  руководству компании  "Baltman"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4994#title_dir' title='Испытание системы
+Подземного телевидения
+для военизированных
+горно-спасательных
+частей Урала'>  Испытание системы  Подземного телевидения  для военизированных  горно-спасательных  частей Урала</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4909#title_dir' title='Междунар. выставка 
+технических средств 
+обороны и защиты 
+"Оборона и защита 2005"
+г.Нижний Тагил '>  Междунар. выставка   технических средств   обороны и защиты   "Оборона и защита 2005"  г.Нижний Тагил </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4907#title_dir' title='Выставка-конференция по новейшей технике'>  Выставка-конференция по новейшей технике</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4906#title_dir' title='Первая 
+региональная 
+венчурная ярмарка 
+
+г.Казань 
+'>  Первая   региональная   венчурная ярмарка     г.Казань   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4905#title_dir' title='Пресс-конференция 
+первого зам. пред. 
+Правительства Св.обл 
+В.А.Молчанова 
+Пресс-центр Интерфакс 
+г.Екатеринбург
+'>  Пресс-конференция   первого зам. пред.   Правительства Св.обл   В.А.Молчанова   Пресс-центр Интерфакс   г.Екатеринбург  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4904#title_dir' title='
+XI Общепромышленная 
+научно-технич. выставка
+"Урал - техно,
+наука, бизнес - 2005"
+г.Екатеринбург '>    XI Общепромышленная   научно-технич. выставка  "Урал - техно,  наука, бизнес - 2005"  г.Екатеринбург </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4903#title_dir' title='
+Первый 
+Уральский Форум 
+"Качество жизни"
+
+г.Екатеринбург'>    Первый   Уральский Форум   "Качество жизни"    г.Екатеринбург</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4902#title_dir' title='
+Интервью, 
+посвященные 
+X Экономическому 
+Форуму 
+г.Екатеринбург 
+2005 
+'>    Интервью,   посвященные   X Экономическому   Форуму   г.Екатеринбург   2005   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4901#title_dir' title='
+II Евроазиатский 
+форум-выставка 
+"СвязьПромЭкспо - 
+- 2005" 
+г.Екатеринбург '>    II Евроазиатский   форум-выставка   "СвязьПромЭкспо -   - 2005"   г.Екатеринбург </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4900#title_dir' title='
+VI Южно-Уральский 
+Экономический Форум 
+
+
+г.Челябинск '>    VI Южно-Уральский   Экономический Форум       г.Челябинск </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4899#title_dir' title='Интернет-видеомост: 
+Бирмингем (Англия)
+
+
+
+Екатеринбург (Россия)'>  Интернет-видеомост:   Бирмингем (Англия)        Екатеринбург (Россия)</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4898#title_dir' title='Выставка 
+"Офис 2005. 
+Информационный бизнес. 
+Технологии интеллекта" 
+г.Екатеринбург '>  Выставка   "Офис 2005.   Информационный бизнес.   Технологии интеллекта"   г.Екатеринбург </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4897#title_dir' title='
+Презентация Фонда некоммерческих программ "ДИНАСТИЯ"
+  '>    Презентация Фонда некоммерческих программ "ДИНАСТИЯ"    </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4896#title_dir' title='
+Всероссийская конференция "ДИВС: проектирование, строительство, эксплуатация, безопасность"
+ '>    Всероссийская конференция "ДИВС: проектирование, строительство, эксплуатация, безопасность"   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4895#title_dir' title='
+"Приборостроение. 
+Электроника. 
+Электротехника - 2004 "
+КОСК "Россия" 
+Екатеринбург '>    "Приборостроение.   Электроника.   Электротехника - 2004 "  КОСК "Россия"   Екатеринбург </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4894#title_dir' title='IV международная выставка-форум "ИнфоКом-2004"
+
+  '>  IV международная выставка-форум "ИнфоКом-2004"      </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4892#title_dir' title='
+"Фундаментальные исследования 
+и региональные конкурсы РФФИ" 
+Дом Правительства '>    "Фундаментальные исследования   и региональные конкурсы РФФИ"   Дом Правительства </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4891#title_dir' title='Третья инновационная конференция.
+Первый Евро-Азиатский форум инвестиций и инноваций 
+"Инвест-проектэкспо 2004"
+'>  Третья инновационная конференция.  Первый Евро-Азиатский форум инвестиций и инноваций   "Инвест-проектэкспо 2004"  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4884#title_dir' title='
+Магистраль-2004 
+Вторая Уральская 
+выставка-ярмарка 
+железнодорожной техники 
+Нижний Тагил '>    Магистраль-2004   Вторая Уральская   выставка-ярмарка   железнодорожной техники   Нижний Тагил </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4883#title_dir' title='
+Встреча детской делегации из Чеченской республики.
+  '>    Встреча детской делегации из Чеченской республики.    </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4882#title_dir' title='
+Российская выставка вооружения
+ Нижний Тагил '>    Российская выставка вооружения   Нижний Тагил </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4877#title_dir' title='
+Выставка "Продукция и технологии  Урала для Беларуси"  
+ Могилев '>    Выставка "Продукция и технологии  Урала для Беларуси"     Могилев </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4876#title_dir' title='
+Евро-Азиатская промышленная выставка
+ Екатеринбург ДИВС '>    Евро-Азиатская промышленная выставка   Екатеринбург ДИВС </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4875#title_dir' title='Круглый стол "Инновационные проекты и инвестиции"'>  Круглый стол "Инновационные проекты и инвестиции"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4874#title_dir' title='СВЯЗЬ-ПРОМЕЭКСПО 2004
+ Екатеринбург  ТРЦ "Екатерининский"'>  СВЯЗЬ-ПРОМЕЭКСПО 2004   Екатеринбург  ТРЦ "Екатерининский"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4871#title_dir' title='
+Выездное заседание  Совета по НТП и ИД  при ППП РФ в УрФО 
+Трехгорный '>    Выездное заседание  Совета по НТП и ИД  при ППП РФ в УрФО   Трехгорный </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4870#title_dir' title=' 
+Российско-японский  бизнес-форум 
+ '>     Российско-японский  бизнес-форум    </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4869#title_dir' title='Выставка-конференция "Управление предприятием. Технологии нового века." 
+'>  Выставка-конференция "Управление предприятием. Технологии нового века."   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4868#title_dir' title='
+Конференция-совещание 
+"Газовый рынок России - региональный аспект" 
+'>    Конференция-совещание   "Газовый рынок России - региональный аспект"   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4867#title_dir' title='
+Семинар "Российская венчурная ярмарка-эффективный 
+инструмент привлечения инвестиций в регионы" УГТУ-УПИ
+'>    Семинар "Российская венчурная ярмарка-эффективный   инструмент привлечения инвестиций в регионы" УГТУ-УПИ  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4866#title_dir' title='Заседание Координационного Совета объединений предпринимателей Свердловской области 
+'>  Заседание Координационного Совета объединений предпринимателей Свердловской области   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4865#title_dir' title='
+Интервью с конкурсантами и членами комиссии программы "Старт" 
+ '>    Интервью с конкурсантами и членами комиссии программы "Старт"    </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4864#title_dir' title='
+Пятая региональная конференция  "Электронная Россия" 
+Екатеринбург'>    Пятая региональная конференция  "Электронная Россия"   Екатеринбург</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4863#title_dir' title='
+Уральская выставка-ярмарка "Магистраль 2003" 
+Нижний Тагил '>    Уральская выставка-ярмарка "Магистраль 2003"   Нижний Тагил </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4862#title_dir' title='
+VII международный форум "Российский промышленник-2003" 
+Санкт-Петербург '>    VII международный форум "Российский промышленник-2003"   Санкт-Петербург </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4861#title_dir' title='Первая национальная конференция "Проблема спама и ее решения"'>  Первая национальная конференция "Проблема спама и ее решения"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4860#title_dir' title='"300 лет российской журналистики &ndash; 300 лет российской истории" 
+'>  "300 лет российской журналистики &ndash; 300 лет российской истории"   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4859#title_dir' title='Бал Прессы'>  Бал Прессы</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4858#title_dir' title='
+Центр Международной Торговли  Екатеринбург
+'>    Центр Международной Торговли  Екатеринбург  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4857#title_dir' title='Пресс-конференция Б.Немцова в ИТАР-ТАСС Урал'>  Пресс-конференция Б.Немцова в ИТАР-ТАСС Урал</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4856#title_dir' title='Международная выставка "Защита и оборона 2003"'>  Международная выставка "Защита и оборона 2003"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4855#title_dir' title='
+Европейский суд по правам человека '>    Европейский суд по правам человека </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4854#title_dir' title='
+Урало-Сибирская научно-промышленная выставка '>    Урало-Сибирская научно-промышленная выставка </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4853#title_dir' title='
+Вторая окружная конференция по инновационной политике'>    Вторая окружная конференция по инновационной политике</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4846#title_dir' title='Российские Экономические Форумы'>  Российские Экономические Форумы</a></UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=4735#title_dir' title='
+Наука и образование
+'>    Наука и образование  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4731#title_dir' title='Видеоархивы ИММ УрО РАН
+'>  Видеоархивы ИММ УрО РАН  </a></UL></UL></div>
+        </td>
+        <td id="idItemsTd" align="center" valign="top" 
+                style="margin:0;padding:0;width:expression((document.body.clientWidth - 257) + 'px');min-width:width:expression((document.body.clientWidth - document.getElementById('idTreeShowTd').clientWidth) + 'px');">
+
+<!-- ####################################### Вывод основной части ######################################## -->
+
+                <!-- ----------------------------------------------------------------------------- -->
+                <table bgcolor=#99CCFF class="recitem" border=1 width=100% Title="Set of objects">
+                <!-- ----------------------------------------------------------------------------- -->
+
+                
+        <center>
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=4642&var=1"><img src=/picForArch/0070_Zhirinovskii_Samara/picMostVVZ_01.jpg  height=144 width=180  alt=id=4642 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=4642&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4642&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4642&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Передача «Открытый диалог» самарской ТРК «Скат»:<br>
+часовой четырехсторонний видеомост вице-спикера Государственной думы В.Ф.Жириновского<br>
+Фрагмент		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4642)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+04.03.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=4677&var=1"><img src=/picForArch/0070_Zhirinovskii_Samara/picZhir_01.jpg  height=144 width=180  alt=id=4677 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=4677&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Передача «Открытый диалог» самарской ТРК «Скат»:<br>
+часовой четырехсторонний видеомост вице-спикера Государственной думы В.Ф.Жириновского<br>
+Полная версия		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4677)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+04.03.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=4689&var=1"><img src=/picForArch/0070_Zhirinovskii_Samara/picSamaraZhir_01.jpg  height=144 width=180  alt=id=4689 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=4689&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4689&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4689&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 1		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4689)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+04.03.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=4690&var=1"><img src=/picForArch/0070_Zhirinovskii_Samara/picSamaraZhir_02.jpg  height=144 width=180  alt=id=4690 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=4690&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4690&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4690&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 2		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4690)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+04.03.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=4704&var=1"><img src=/picForArch/0070_Zhirinovskii_Samara/picSamaraZhir_03.jpg  height=144 width=180  alt=id=4704 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=4704&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4704&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4704&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 3		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4704)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+04.03.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=4705&var=1"><img src=/picForArch/0070_Zhirinovskii_Samara/picSamaraZhir_04.jpg  height=144 width=180  alt=id=4705 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=4705&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4705&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=4705&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Часть 4		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4705)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+04.03.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+        </table>
+        </center>
+        </td>
+        </tr>
+        </table>
+        </center>1..6
+<center><font face=Arial size=2>
+</font><br>
+</center>
+    <a href="errr.php?dir=5331&lng=ru" class=menu>[Сообщить об ошибке]</a>
+    &nbsp;&nbsp;&nbsp;
+<a href=adminstart2.php?lng=ru&skin=2&dir=5331 class=menu>[Администрировать]</a>
+<br>
+<br>
+
+<center>
+<table width="100%" bgcolor='#CCCCCC'>
+<td>
+<font face=Arial size=1>
+        (c) НПЦ Видикор, 2008.
+</font>
+</td>
+</table>
+</center></body>
+</html>

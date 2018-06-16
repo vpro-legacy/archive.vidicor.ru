@@ -1,0 +1,308 @@
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+<!-- ========================================== Начало вывода страницы ========================================== -->
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Vidicor: Video-On-Line, Video-On-Demand, Video-On-Schedule ru</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="css/styletab.css" rel="stylesheet" type="text/css">
+<link href="css/style_main.css" rel="stylesheet" type="text/css"> 
+<link href="css/style2.css" rel="stylesheet" type="text/css"> 
+
+<SCRIPT language='JScript' id='recvjc' src='rmxfrecv.js'></SCRIPT>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+  var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+  if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script></head>
+
+<body><table bgcolor=#B3B4C1 border="1" width="100%" rules="none">
+  <tr>
+    <td width="80%" valign="middle" align="center">
+      <p><font size=2>
+        &copy; Cредства передачи видео через Интернет, примененные на этом сайте, разработаны
+        <a href="http://www.vidicor.ru">Научно-производственным центром "Vidicor Ltd."</a>
+        <br>на базе исследований 
+        <a href="/vslRu/index.htm" target="_blank"> 
+        Научно-исследовательского центра мультимедиа технологий</a>
+        <a href="http://www.imm.uran.ru">Института&nbsp;математики&nbsp;и&nbsp;механики</a>
+        <a href="http://www.uran.ru">Уральского&nbsp;отделения</a>
+        <a href="http://www.ras.ru">Российской&nbsp;академии&nbsp;наук</a>
+        </font> 
+      </p>
+    </td>
+	<td>
+	      <a href="http://vidicor.ru" target="_blank"><img width="60%"  src="/pictures/vidicor.jpg" ></a>
+	</td>
+  </tr>
+</table>
+<br/><!-- Кнопки "Выше" и "Наверх" -->
+
+<center>
+<table border=0 width="100%">
+  <tr>
+    <td width="20%" align="left">
+	<a href="main.php?base=bases&lng=ru"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('home','','lng/ru/images/home1.gif',1)" 
+	onMouseDown="MM_swapImage('home','','lng/ru/images/home3.gif',1)">
+	<img src="lng/ru/images/home2.gif" name="home"  border="0"  alt=""></a>
+
+      &nbsp;
+    </td>
+
+    <td>
+
+<table border=0 width="100%" valign=top>
+  <tr valign=top>
+    <td width="100%" align="left" valign=top>
+      <a href="http://www.vidicor.ru" class=menu target="_blank">О системе</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/gb.shtml" class=menu target="_blank">Гостевая книга</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamRef.htm" class=menu target="_blank">Ссылки</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamPress.htm" class=menu target="_blank">Пресса о нас</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/VidicomViewer_help.htm" class=menu target="_blank">Помощь</a>
+      &nbsp;
+<a class=menu href=main.php?skin=2&dir=4996&lng=en> <b>English</b> </a>    &nbsp;
+<font size=2>	<a href="http://vidicor.ru/SatReceiving.htm" target="_blank">[Как принимать спутниковую трансляцию?]</a> </font>
+    </td>
+  </tr>
+</table>
+    </td>
+</table>
+</center>
+
+<br/>
+
+<table valign="top" width="100%" cellpadding=0 cellspacing=0>
+<tr>
+        <td valign="top" align="left" width="0">
+        <div style="width:257px;max-width:257px;margin:0;padding:0;">
+
+<!-- Выдача перечня представлений -->
+<form name=search style="display:inline" method=POST action="main.php?skin=2&dir=4996&lng=ru">
+	<select size=1 name="select_skin" onChange="goto_page(this.options)">
+	<option   value=1> Афиша (обратно-хронологически)
+ <option selected value=2> Каталог с деревом (тематически)
+ <option   value=3> Каталог без дерева (тематически)
+ <option   value=4> Таблица без дерева
+ <option   value=5> Таблица с деревом
+ <option   value=6> Тестовое представление 1
+ <option   value=7> Тестовое представление 2
+ <option   value=8> Тестовое представление 3
+ 	</select>
+
+
+<!-- Поиск -->
+	<input type=text name=find_str value="" size=23>
+	<input type=submit value= Искать... >
+	
+</form>
+
+<!-- Приглашение к созданию/редактированию/удалению скинов -->
+	<script style="display:none">
+function goto_page(options) 
+	{
+	var url = options[options.selectedIndex].value;
+	var howdy = window.open("main.php?lng=ru&skin="+url, target="_top");
+	}
+</script>        </div>
+        </td>
+
+        <td valign="middle" align="center" width="100%" valign="bottom">
+
+<!-- ############################## Название ################################ -->
+        <font class=Name color=#2b0079>
+Vidicor        </font>
+
+<!-- ############################## Маркер [Редактирование] ################################ -->
+                </font>
+
+        <center>(шаблон 2, скин 2)</center>
+
+        <br><br>
+        <center>
+        Кнопки с цифрами -- запуск проигрывания с разными уровнями качества<br>
+        Кнопки с желтой папкой -- войти в подраздел
+        </center>
+        </td>
+
+        </tr>
+</table>
+
+<br/>
+
+<center><font face=Arial size=2>
+</font></center><table border="0" style="width:100%;max-width:100%;margin:0;padding:0;cellpadding:0;cellspacing:0" cellpadding="0" cellspacing="0">
+        <tr>
+        <td id="idTreeShowTd" valign="top" style="background-color:#B3B4C1;padding:0;margin:0;" width="257"><div class="scroll_tree" align="left" ><UL><LI> <a class=A1 href='?skin=2&dir=5619&lng=ru#title_dir' title='Каналы вещания компании "Видикор"'>  Каналы вещания компании "Видикор"</a><LI> <a class=A1 href='?skin=2&dir=5174&lng=ru#title_dir' title='Сеть живых камер и ретрансляций'>  Сеть живых камер и ретрансляций</a><LI> <a class=A1 href='?skin=2&dir=4730&lng=ru#title_dir' title='Архив видеозаписей'>  Архив видеозаписей</a></UL></div>
+        </td>
+        <td id="idItemsTd" align="center" valign="top" 
+                style="margin:0;padding:0;width:expression((document.body.clientWidth - 257) + 'px');min-width:width:expression((document.body.clientWidth - document.getElementById('idTreeShowTd').clientWidth) + 'px');">
+
+<!-- ####################################### Вывод основной части ######################################## -->
+
+                <!-- ----------------------------------------------------------------------------- -->
+                <table bgcolor=#99CCFF class="recitem" border=1 width=100% Title="Set of objects">
+                <!-- ----------------------------------------------------------------------------- -->
+
+                
+        <center>
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="main.php?skin=2&dir=5619&lng=ru "><img src=http://archive.vidicor.ru/pictures/vidicor.jpg  height=144 width=180  alt=id=5619 border=0</a>
+<hr><script language="JavaScript">SecondImage0='pictures/open1.gif';</script><a href="main.php?skin=2&dir=5619&lng=ru" onMouseOver="{OrigImage0=img0.src; img0.src=SecondImage0} " onMouseOut="img0.src=OrigImage0"><img alt="" name="img0" border="0" src="pictures/open2.gif" onLoad="TempImage0=new Image(0,0); TempImage0.src=SecondImage0"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Каналы вещания компании "Видикор"		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5619)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="main.php?skin=2&dir=4730&lng=ru "><img src=pics/VOD.jpg  height=144 width=180  alt=id=4730 border=0</a>
+<hr><script language="JavaScript">SecondImage1='pictures/open1.gif';</script><a href="main.php?skin=2&dir=4730&lng=ru" onMouseOver="{OrigImage1=img1.src; img1.src=SecondImage1} " onMouseOut="img1.src=OrigImage1"><img alt="" name="img1" border="0" src="pictures/open2.gif" onLoad="TempImage1=new Image(0,0); TempImage1.src=SecondImage1"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Архив видеозаписей		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4730)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="http://live.vidicor.ru"><img src=http://archive.vidicor.ru/images/camera.jpg  height=144 width=180  alt=id=5174 border=0</a>
+<hr><script language="JavaScript">SecondImage2='pictures/open1.gif';</script><a href="main.php?skin=2&dir=5174&lng=ru" onMouseOver="{OrigImage2=img2.src; img2.src=SecondImage2} " onMouseOut="img2.src=OrigImage2"><img alt="" name="img2" border="0" src="pictures/open2.gif" onLoad="TempImage2=new Image(0,0); TempImage2.src=SecondImage2"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Сеть живых камер и ретрансляций		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5174)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+        </table>
+        </center>
+        </td>
+        </tr>
+        </table>
+        </center>1..3
+<center><font face=Arial size=2>
+</font><br>
+</center>
+    <a href="errr.php?dir=4996&lng=ru" class=menu>[Сообщить об ошибке]</a>
+    &nbsp;&nbsp;&nbsp;
+<a href=adminstart2.php?skin=2&dir=4996&lng=ru class=menu>[Администрировать]</a>
+<br>
+<br>
+
+<center>
+<table width="100%" bgcolor='#CCCCCC'>
+<td>
+<font face=Arial size=1>
+        (c) НПЦ Видикор, 2008.
+</font>
+</td>
+</table>
+</center></body>
+</html>

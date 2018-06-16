@@ -1,0 +1,1012 @@
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+<!-- ========================================== Начало вывода страницы ========================================== -->
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Vidicor: Video-On-Line, Video-On-Demand, Video-On-Schedule en</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="css/styletab.css" rel="stylesheet" type="text/css">
+<link href="css/style_main.css" rel="stylesheet" type="text/css"> 
+<link href="css/style2.css" rel="stylesheet" type="text/css"> 
+
+<SCRIPT language='JScript' id='recvjc' src='rmxfrecv.js'></SCRIPT>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+  var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+  if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script></head>
+
+<body><table bgcolor=#B3B4C1 border="1" width="100%" rules="none">
+  <tr>
+    <td width="80%" valign="middle" align="center">
+      <p><font size=2>
+        &copy;  Technologies and software applied on this site for transmission of 
+        video via the Internet are originally developed by
+        Research-and-Production Center "<a href="http://www.Vidicor.com">Vidicor Ltd.</a>"
+        basing on investigations of 
+        <a href="/vslEn/index.htm" target="_blank">  
+        Research Center of Multimedia</a>,
+        <a href="http://www.imm.uran.ru">Institute&nbsp;of&nbsp;Mathematics&nbsp;and&nbsp;Mechanics</a>,
+        <a href="http://www.uran.ru">Ural&nbsp;Branch</a>,
+        <a href="http://www.ras.ru">Russian&nbsp;Academy&nbsp;of&nbsp;Sciences</a>
+        </font> 
+      </p>
+    </td>
+	<td>
+	      <a href="http://vidicor.ru" target="_blank"><img width="60%" src="/pictures/vidicor.jpg" ></a>
+	</td>
+  </tr>
+</table>
+<br/><!-- Кнопки "Выше" и "Наверх" -->
+
+<center>
+<table border=0 width="100%">
+  <tr>
+    <td width="20%" align="left">
+	<a href="main.php?skin=2&lng=en"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('home','','lng/en/images/home1.gif',1)" 
+	onMouseDown="MM_swapImage('home','','lng/en/images/home3.gif',1)">
+	<img src="lng/en/images/home2.gif" name="home"  border="0"  alt=""></a>
+      <a href="main.php?skin=2&dir=4730&lng=en"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('up','','lng/en/images/up1.gif',1)" 
+	onMouseDown="MM_swapImage('up','','lng/en/images/up3.gif',1)">
+	<img src="lng/en/images/up2.gif" name="up"  border="0"  alt=""></a>
+
+      &nbsp;
+    </td>
+
+    <td>
+
+<table border=0 width="100%" valign=top>
+  <tr valign=top>
+    <td width="100%" align="left" valign=top>
+      <a href="http://www.vidicor.ru" class=menu target="_blank">About system</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/en/gb.shtml" class=menu target="_blank">Guest book</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/en/webCamRef.htm" class=menu target="_blank">Links</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/en/webCamPress.htm" class=menu target="_blank">Mass-media about us</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/en/VidicomViewer_help.htm" class=menu target="_blank">Help</a>
+      &nbsp;
+<a class=menu href=main.php?lng=ru&skin=2&dir=4960> Русский </a>    &nbsp;
+<font size=2>	<a href="http://vidicor.ru/SatReceiving.htm" target="_blank">[How to receive satellite translation?]</a> </font>
+    </td>
+  </tr>
+</table>
+    </td>
+</table>
+</center>
+
+<br/>
+
+<table valign="top" width="100%" cellpadding=0 cellspacing=0>
+<tr>
+        <td valign="top" align="left" width="0">
+        <div style="width:257px;max-width:257px;margin:0;padding:0;">
+
+<!-- Выдача перечня представлений -->
+<form name=search style="display:inline" method=POST action="main.php?lng=en&skin=2&dir=4960">
+	<select size=1 name="select_skin" onChange="goto_page(this.options)">
+	<option   value=1> Chronology
+ <option selected value=2> Themes
+ <option   value=3> Thems without tree
+ <option   value=4> Table w/o tree
+ <option   value=5> 
+ <option   value=6> 
+ <option   value=7> 
+ <option   value=8> 
+ 	</select>
+
+
+<!-- Поиск -->
+	<input type=text name=find_str value="" size=23>
+	<input type=submit value=Search...>
+	
+</form>
+
+<!-- Приглашение к созданию/редактированию/удалению скинов -->
+	<script style="display:none">
+function goto_page(options) 
+	{
+	var url = options[options.selectedIndex].value;
+	var howdy = window.open("main.php?lng=en&skin="+url, target="_top");
+	}
+</script>        </div>
+        </td>
+
+        <td valign="middle" align="center" width="100%" valign="bottom">
+
+<!-- ############################## Название ################################ -->
+        <font class=Name color=#2b0079>
+Sport
+        </font>
+
+<!-- ############################## Маркер [Редактирование] ################################ -->
+                </font>
+
+        <center>(шаблон 2, скин 2)</center>
+
+        <br><br>
+        <center>
+        Кнопки с цифрами -- запуск проигрывания с разными уровнями качества<br>
+        Кнопки с желтой папкой -- войти в подраздел
+        </center>
+        </td>
+
+        </tr>
+</table>
+
+<br/>
+
+<center><font face=Arial size=2>
+</font></center><table border="0" style="width:100%;max-width:100%;margin:0;padding:0;cellpadding:0;cellspacing:0" cellpadding="0" cellspacing="0">
+        <tr>
+        <td id="idTreeShowTd" valign="top" style="background-color:#B3B4C1;padding:0;margin:0;" width="257"><div class="scroll_tree" align="left" ><UL><LI> <a class=A1 href='?lng=en&skin=2&dir=5619#title_dir' title='Playlists
+
+(preview)'>  Playlists    (preview)</a><LI> <a class=A1 href='?lng=en&skin=2&dir=5174#title_dir' title='Live Cameras Network'>  Live Cameras Network</a><LI> <a class=A1 href='?lng=en&skin=2&dir=4730#title_dir' title='Videorecordings Archives'>  Videorecordings Archives</a><UL><LI> <a class=A1 href='?lng=en&skin=2&dir=6488#title_dir' title='Видеоархивы Президиума УрО РАН'>  Видеоархивы Президиума УрО РАН</a><LI> <a class=A1 href='?lng=en&skin=2&dir=5259#title_dir' title='State Demonstration & Exhibition Center..
+Staratel,
+Nizhniy Tagil 
+'>  State Demonstration & Exhibition Center..  Staratel,  Nizhniy Tagil   </a><LI> <a class=A1 href='?lng=en&skin=2&dir=5001#title_dir' title='Press-center of inform agency "Interfax-Ural"'>  Press-center of inform agency "Interfax-Ural"</a><LI> <a class=A1 href='?lng=en&skin=2&dir=4981#title_dir' title='ITAR TASS - Ural'>  ITAR TASS - Ural</a><LI> <a class=A1 href='main.php?skin=2&dir=4730&lng=en#title_dir' title='Sport
+'> <b>[-] Sport
+</b></a><UL><LI> <a class=A1 href='?lng=en&skin=2&dir=6256#title_dir' title=''>  </a><LI> <a class=A1 href='?lng=en&skin=2&dir=6071#title_dir' title='Sport Channel'>  Sport Channel</a><LI> <a class=A1 href='?lng=en&skin=2&dir=5329#title_dir' title='All-Russian
+Mass Сross-Сountr "Ski Track of Russia 2007" '>  All-Russian  Mass Сross-Сountr "Ski Track of Russia 2007" </a><LI> <a class=A1 href='?lng=en&skin=2&dir=5225#title_dir' title='70 anniversary relay race on a prize of the newspaper
+"Ural worker"
+
+"Spring of the Victory" '>  70 anniversary relay race on a prize of the newspaper  "Ural worker"    "Spring of the Victory" </a><LI> <a class=A1 href='?lng=en&skin=2&dir=5204#title_dir' title='Closing ceremony of the World championship on a chess among women'>  Closing ceremony of the World championship on a chess among women</a><LI> <a class=A1 href='?lng=en&skin=2&dir=5201#title_dir' title='Opening ceremony of the Women"s World Chess Championship
+
+Ekaterinburg  
+      
+'>  Opening ceremony of the Women"s World Chess Championship    Ekaterinburg            </a><LI> <a class=A1 href='?lng=en&skin=2&dir=5195#title_dir' title='Ski track of Russia - 2006
+ Range "Staratel" 
+Sverdlovsk area '>  Ski track of Russia - 2006   Range "Staratel"   Sverdlovsk area </a><LI> <a class=A1 href='?lng=en&skin=2&dir=4992#title_dir' title='Journey of "Vidicom" Command to Halmer-U
+Ekaterinburg - Kirov - Vorkuta - Halmer-U - and - back'>  Journey of "Vidicom" Command to Halmer-U  Ekaterinburg - Kirov - Vorkuta - Halmer-U - and - back</a><LI> <a class=A1 href='?lng=en&skin=2&dir=4980#title_dir' title='
+Press Conference of
+FIDE" President
+Kirsan Ilumginov
+"Interfax-Ural"
+Ekaterinburg
+July, 15 2005
+'>    Press Conference of  FIDE" President  Kirsan Ilumginov  "Interfax-Ural"  Ekaterinburg  July, 15 2005  </a><LI> <a class=A1 href='?lng=en&skin=2&dir=4975#title_dir' title='
+Russian Championship 
+between Juniors 
+in the Context of 
+V International Ski Festival  
+"Lukjyanovs" Ski-track" 
+April, 1-10 2005
+'>    Russian Championship   between Juniors   in the Context of   V International Ski Festival    "Lukjyanovs" Ski-track"   April, 1-10 2005  </a><LI> <a class=A1 href='?lng=en&skin=2&dir=4974#title_dir' title='
+II Cup-final of Russia 
+on basketball 
+VBM-SGAU (Samara) - 
+UGMK (Ekaterinburg) 
+DIVS, Ekaterinburg 
+February, 18 2005
+'>    II Cup-final of Russia   on basketball   VBM-SGAU (Samara) -   UGMK (Ekaterinburg)   DIVS, Ekaterinburg   February, 18 2005  </a><LI> <a class=A1 href='?lng=en&skin=2&dir=4973#title_dir' title='
+Mass Ski Race of 
+UrFO in the context of 
+All-Russian Competitions 
+"Ski-track of Russia 2005" 
+Proving ground "Staratel"
+February, 13 2005
+'>    Mass Ski Race of   UrFO in the context of   All-Russian Competitions   "Ski-track of Russia 2005"   Proving ground "Staratel"  February, 13 2005  </a><LI> <a class=A1 href='?lng=en&skin=2&dir=4972#title_dir' title='The First Winter Sports Day of pupils of Russia 
+February, 29 2004
+'>  The First Winter Sports Day of pupils of Russia   February, 29 2004  </a><LI> <a class=A1 href='?lng=en&skin=2&dir=4971#title_dir' title='
+Mass ski UrFR race in the context of All-Russian competition
+ "Russian ski-track 2004" (N.Tagil) February, 8 2004
+'>    Mass ski UrFR race in the context of All-Russian competition   "Russian ski-track 2004" (N.Tagil) February, 8 2004  </a><LI> <a class=A1 href='?lng=en&skin=2&dir=4961#title_dir' title='Sports videorecordings 
+in Sports Games Palace "Uralochka"'>  Sports videorecordings   in Sports Games Palace "Uralochka"</a></UL><LI> <a class=A1 href='?lng=en&skin=2&dir=4934#title_dir' title='Music and movie'>  Music and movie</a><LI> <a class=A1 href='?lng=en&skin=2&dir=4917#title_dir' title='
+City Life
+
+'>    City Life    </a><LI> <a class=A1 href='?lng=en&skin=2&dir=4912#title_dir' title='Religion'>  Religion</a><LI> <a class=A1 href='?lng=en&skin=2&dir=4845#title_dir' title='
+Politics and Economics
+
+'>    Politics and Economics    </a><LI> <a class=A1 href='?lng=en&skin=2&dir=4735#title_dir' title='
+Science
+
+'>    Science    </a><LI> <a class=A1 href='?lng=en&skin=2&dir=4731#title_dir' title='Videorecords Archive of IMM UrB RAS'>  Videorecords Archive of IMM UrB RAS</a></UL></UL></div>
+        </td>
+        <td id="idItemsTd" align="center" valign="top" 
+                style="margin:0;padding:0;width:expression((document.body.clientWidth - 257) + 'px');min-width:width:expression((document.body.clientWidth - document.getElementById('idTreeShowTd').clientWidth) + 'px');">
+
+<!-- ####################################### Вывод основной части ######################################## -->
+
+                <!-- ----------------------------------------------------------------------------- -->
+                <table bgcolor=#99CCFF class="recitem" border=1 width=100% Title="Set of objects">
+                <!-- ----------------------------------------------------------------------------- -->
+
+                
+        <center>
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="main.php?lng=en&skin=2&dir=6256 "><img src=http://archive.vidicor.ru/pics/picLR_04.jpg  height=144 width=180  alt=id=6256 border=0</a>
+<hr><script language="JavaScript">SecondImage0='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=6256" onMouseOver="{OrigImage0=img0.src; img0.src=SecondImage0} " onMouseOut="img0.src=OrigImage0"><img alt="" name="img0" border="0" src="pictures/open2.gif" onLoad="TempImage0=new Image(0,0); TempImage0.src=SecondImage0"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+				</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=6256)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+10.02.2008		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=en&skin=2&dir=6071&var=1"><img src=/pics/11111111111111111111111111111111111111111111111111111111111pic_01.jpg  height=144 width=180  alt=id=6071 border=0</a>
+<hr><center><a href=rec.php?lng=en&skin=2&dir=6071&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=en&skin=2&dir=6071&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=en&skin=2&dir=6071&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		<table border=1 bgcolor="ddddff"><tr><td><font face=Arial size=3><b><i>Sport Channel</i></b></font></td></tr></table><hr><hr>14:45 - 15:30<hr>Part 1.Fragment<hr>Competitions
+and
+rewarding of
+winners<hr>16:20 - 17:00<hr>15:45 - 16:30<hr>15:30 - 16:20<hr><hr>14:45 - 15:30<hr>15:30 - 16:20<hr>Fragment<hr>Football match:
+IMM vs IM UrB RAS to celebrate 70 anniversary of RAS 
+June 10, 2002
+<hr>Part 1.  Fragment 1
+<hr>Part 1.  Fragment 1<hr>Part 1.  Fragment 1<hr>"Ski-Trak of Russia 2005"
+Part 2
+Signal of OblTV 
+(No Sound)
+
+<hr>Part 1.  Fragment 1
+<hr>Football Final
+IMM vs IE UrB RASto celebrate 70 anniversary of RAS
+June 20 2002
+</font><hr>		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=6071)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="http://webtv.vidicor.ru/main.php?lng=ru&dir=466"><img src=/picForArch/0068_LyzhnyaRossii_2007/picLyzhRoss07_Dir.jpg  height=144 width=180  alt=id=5329 border=0</a>
+<hr><script language="JavaScript">SecondImage2='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=5329" onMouseOver="{OrigImage2=img2.src; img2.src=SecondImage2} " onMouseOut="img2.src=OrigImage2"><img alt="" name="img2" border="0" src="pictures/open2.gif" onLoad="TempImage2=new Image(0,0); TempImage2.src=SecondImage2"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		All-Russian
+Mass Сross-Сountr "Ski Track of Russia 2007" 		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5329)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+10.02.2007		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="main.php?lng=en&skin=2&dir=5225 "><img src=/picForArch/0045_zabeg_06/picestafeta_dir.jpg  height=144 width=180  alt=id=5225 border=0</a>
+<hr><script language="JavaScript">SecondImage3='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=5225" onMouseOver="{OrigImage3=img3.src; img3.src=SecondImage3} " onMouseOut="img3.src=OrigImage3"><img alt="" name="img3" border="0" src="pictures/open2.gif" onLoad="TempImage3=new Image(0,0); TempImage3.src=SecondImage3"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		70 anniversary relay race on a prize of the newspaper<br>
+"Ural worker"
+<br>
+"Spring of the Victory" 		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5225)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+29.04.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="http://womenchess.com/main.asp?cat=0"><img src=/picForArch/0029_ChessClosing_06/chessClose_Dir.jpg  height=144 width=180  alt=id=5204 border=0</a>
+<hr><script language="JavaScript">SecondImage4='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=5204" onMouseOver="{OrigImage4=img4.src; img4.src=SecondImage4} " onMouseOut="img4.src=OrigImage4"><img alt="" name="img4" border="0" src="pictures/open2.gif" onLoad="TempImage4=new Image(0,0); TempImage4.src=SecondImage4"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Closing ceremony of the World championship on a chess among women		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5204)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+26.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="http://womenchess.com/main.asp?cat=0"><img src=/picForArch/0026_CHESS_06/picChess06_Dir.jpg  height=144 width=180  alt=id=5201 border=0</a>
+<hr><script language="JavaScript">SecondImage5='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=5201" onMouseOver="{OrigImage5=img5.src; img5.src=SecondImage5} " onMouseOut="img5.src=OrigImage5"><img alt="" name="img5" border="0" src="pictures/open2.gif" onLoad="TempImage5=new Image(0,0); TempImage5.src=SecondImage5"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Opening ceremony of the Women"s World Chess Championship
+<br><br>
+Ekaterinburg  
+      
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5201)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+10.03.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="http://www.lijnya.ru/2006.php#2006"><img src=picForArch/0021_LyzhRoss_06/picLR_Dir.jpg  height=144 width=180  alt=id=5195 border=0</a>
+<hr><script language="JavaScript">SecondImage6='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=5195" onMouseOver="{OrigImage6=img6.src; img6.src=SecondImage6} " onMouseOut="img6.src=OrigImage6"><img alt="" name="img6" border="0" src="pictures/open2.gif" onLoad="TempImage6=new Image(0,0); TempImage6.src=SecondImage6"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Ski track of Russia - 2006
+<br><br> Range "Staratel" <br>
+Sverdlovsk area 		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=5195)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+05.02.2006		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="main.php?lng=en&skin=2&dir=4992 "><img src=pics/picHalmer_Dir.jpg  height=144 width=180  alt=id=4992 border=0</a>
+<hr><script language="JavaScript">SecondImage7='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=4992" onMouseOver="{OrigImage7=img7.src; img7.src=SecondImage7} " onMouseOut="img7.src=OrigImage7"><img alt="" name="img7" border="0" src="pictures/open2.gif" onLoad="TempImage7=new Image(0,0); TempImage7.src=SecondImage7"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Journey of "Vidicom" Command to Halmer-U
+Ekaterinburg - Kirov - Vorkuta - Halmer-U - and - back		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4992)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+19.07.2005		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="main.php?lng=en&skin=2&dir=4980 "><img src=pics/picKirsan_Dir.jpg  height=144 width=180  alt=id=4980 border=0</a>
+<hr><script language="JavaScript">SecondImage8='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=4980" onMouseOver="{OrigImage8=img8.src; img8.src=SecondImage8} " onMouseOut="img8.src=OrigImage8"><img alt="" name="img8" border="0" src="pictures/open2.gif" onLoad="TempImage8=new Image(0,0); TempImage8.src=SecondImage8"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Press Conference of<br>
+FIDE" President<br>
+Kirsan Ilumginov<br>
+"Interfax-Ural"<br>
+Ekaterinburg<br>
+July, 15 2005
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4980)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+15.07.2005		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="main.php?lng=en&skin=2&dir=4975 "><img src=pics/skipicdir.jpg  height=144 width=180  alt=id=4975 border=0</a>
+<hr><script language="JavaScript">SecondImage9='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=4975" onMouseOver="{OrigImage9=img9.src; img9.src=SecondImage9} " onMouseOut="img9.src=OrigImage9"><img alt="" name="img9" border="0" src="pictures/open2.gif" onLoad="TempImage9=new Image(0,0); TempImage9.src=SecondImage9"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Russian Championship <br>
+between Juniors <br>
+in the Context of <br>
+V International Ski Festival  <br>
+"Lukjyanovs" Ski-track" <br>
+April, 1-10 2005
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4975)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+31.03.2005		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="main.php?lng=en&skin=2&dir=4974 "><img src=pics/picBasDir.jpg  height=144 width=180  alt=id=4974 border=0</a>
+<hr><script language="JavaScript">SecondImage10='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=4974" onMouseOver="{OrigImage10=img10.src; img10.src=SecondImage10} " onMouseOut="img10.src=OrigImage10"><img alt="" name="img10" border="0" src="pictures/open2.gif" onLoad="TempImage10=new Image(0,0); TempImage10.src=SecondImage10"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+II Cup-final of Russia <br>
+on basketball <br>
+VBM-SGAU (Samara) - <br>
+UGMK (Ekaterinburg) <br>
+DIVS, Ekaterinburg <br>
+February, 18 2005
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4974)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+18.02.2005		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="main.php?lng=en&skin=2&dir=4973 "><img src=pics/picLRDir.jpg  height=144 width=180  alt=id=4973 border=0</a>
+<hr><script language="JavaScript">SecondImage11='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=4973" onMouseOver="{OrigImage11=img11.src; img11.src=SecondImage11} " onMouseOut="img11.src=OrigImage11"><img alt="" name="img11" border="0" src="pictures/open2.gif" onLoad="TempImage11=new Image(0,0); TempImage11.src=SecondImage11"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Mass Ski Race of <br>
+UrFO in the context of <br>
+All-Russian Competitions <br>
+"Ski-track of Russia 2005" <br>
+Proving ground "Staratel"<br>
+February, 13 2005
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4973)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+13.02.2005		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="http://www.goskomsport.ru/xml/t/mainr.xml?nic=press&mid=0&pid=547&lang=ru"><img src=pics/1Zastavka.jpg  height=144 width=180  alt=id=4972 border=0</a>
+<hr><script language="JavaScript">SecondImage12='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=4972" onMouseOver="{OrigImage12=img12.src; img12.src=SecondImage12} " onMouseOut="img12.src=OrigImage12"><img alt="" name="img12" border="0" src="pictures/open2.gif" onLoad="TempImage12=new Image(0,0); TempImage12.src=SecondImage12"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		The First Winter Sports Day of pupils of Russia <br><br><br><br>
+February, 29 2004
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4972)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+28.02.2004		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="main.php?lng=en&skin=2&dir=4971 "><img src=pics/press-conf.jpg  height=144 width=180  alt=id=4971 border=0</a>
+<hr><script language="JavaScript">SecondImage13='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=4971" onMouseOver="{OrigImage13=img13.src; img13.src=SecondImage13} " onMouseOut="img13.src=OrigImage13"><img alt="" name="img13" border="0" src="pictures/open2.gif" onLoad="TempImage13=new Image(0,0); TempImage13.src=SecondImage13"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Mass ski UrFR race in the context of All-Russian competition
+ "Russian ski-track 2004" (N.Tagil)<br><br> February, 8 2004
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4971)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+08.02.2004		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=en&skin=2&dir=1500&var=1"><img src=pics/football3.jpg  height=144 width=180  alt=id=1500 border=0</a>
+<hr><center><a href=rec.php?lng=en&skin=2&dir=1500&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=en&skin=2&dir=1500&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=en&skin=2&dir=1500&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Football Final<br>
+IMM vs IE UrB RAS<br>to celebrate 70 anniversary of RAS<br>
+June 20 2002
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=1500)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+19.06.2002		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=en&skin=2&dir=1499&var=1"><img src=pics/1football1.jpg  height=144 width=180  alt=id=1499 border=0</a>
+<hr><center><a href=rec.php?lng=en&skin=2&dir=1499&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=en&skin=2&dir=1499&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=en&skin=2&dir=1499&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Football match:<br>
+IMM vs IM UrB RAS to celebrate 70 anniversary of RAS<br> <br>
+June 10, 2002
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=1499)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+</div>
+<div align="center">
+    <!-- ------------------------ Вывод даты ------------------------------------- -->
+		<font size=2 face="Verdana, Arial, Helvetica, sans-serif" color="#000000">
+09.06.2002		</font>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="main.php?lng=en&skin=2&dir=4961 "><img src=pics/basket-3.jpg  height=144 width=180  alt=id=4961 border=0</a>
+<hr><script language="JavaScript">SecondImage16='pictures/open1.gif';</script><a href="main.php?lng=en&skin=2&dir=4961" onMouseOver="{OrigImage16=img16.src; img16.src=SecondImage16} " onMouseOut="img16.src=OrigImage16"><img alt="" name="img16" border="0" src="pictures/open2.gif" onLoad="TempImage16=new Image(0,0); TempImage16.src=SecondImage16"></a>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		Sports videorecordings <br>
+in Sports Games Palace "Uralochka"		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=4961)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+        </table>
+        </center>
+        </td>
+        </tr>
+        </table>
+        </center>1..17
+<center><font face=Arial size=2>
+</font><br>
+</center>
+    <a href="errr.php?dir=4960&lng=en">[I want to tell You about mistake at the site]</a>
+
+<br>
+<br>
+
+<center>
+<table width="100%" bgcolor='#CCCCCC'>
+<td>
+<font face=Arial size=1>
+        (c) RPC Vidicor Ltd., 2008.
+</font>
+</td>
+</table>
+</center></body>
+</html>

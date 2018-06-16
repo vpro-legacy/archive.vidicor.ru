@@ -1,0 +1,1405 @@
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+<!-- ========================================== Начало вывода страницы ========================================== -->
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Vidicor: Video-On-Line, Video-On-Demand, Video-On-Schedule ru</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="css/styletab.css" rel="stylesheet" type="text/css">
+<link href="css/style_main.css" rel="stylesheet" type="text/css"> 
+<link href="css/style2.css" rel="stylesheet" type="text/css"> 
+
+<SCRIPT language='JScript' id='recvjc' src='rmxfrecv.js'></SCRIPT>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+  var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+  if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script></head>
+
+<body><table bgcolor=#B3B4C1 border="1" width="100%" rules="none">
+  <tr>
+    <td width="80%" valign="middle" align="center">
+      <p><font size=2>
+        &copy; Cредства передачи видео через Интернет, примененные на этом сайте, разработаны
+        <a href="http://www.vidicor.ru">Научно-производственным центром "Vidicor Ltd."</a>
+        <br>на базе исследований 
+        <a href="/vslRu/index.htm" target="_blank"> 
+        Научно-исследовательского центра мультимедиа технологий</a>
+        <a href="http://www.imm.uran.ru">Института&nbsp;математики&nbsp;и&nbsp;механики</a>
+        <a href="http://www.uran.ru">Уральского&nbsp;отделения</a>
+        <a href="http://www.ras.ru">Российской&nbsp;академии&nbsp;наук</a>
+        </font> 
+      </p>
+    </td>
+	<td>
+	      <a href="http://vidicor.ru" target="_blank"><img width="60%"  src="/pictures/vidicor.jpg" ></a>
+	</td>
+  </tr>
+</table>
+<br/><!-- Кнопки "Выше" и "Наверх" -->
+
+<center>
+<table border=0 width="100%">
+  <tr>
+    <td width="20%" align="left">
+	<a href="main.php?skin=2&lng=ru"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('home','','lng/ru/images/home1.gif',1)" 
+	onMouseDown="MM_swapImage('home','','lng/ru/images/home3.gif',1)">
+	<img src="lng/ru/images/home2.gif" name="home"  border="0"  alt=""></a>
+      <a href="main.php?skin=2&dir=4735&lng=ru"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('up','','lng/ru/images/up1.gif',1)" 
+	onMouseDown="MM_swapImage('up','','lng/ru/images/up3.gif',1)">
+	<img src="lng/ru/images/up2.gif" name="up"  border="0"  alt=""></a>
+
+      &nbsp;
+    </td>
+
+    <td>
+
+<table border=0 width="100%" valign=top>
+  <tr valign=top>
+    <td width="100%" align="left" valign=top>
+      <a href="http://www.vidicor.ru" class=menu target="_blank">О системе</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/gb.shtml" class=menu target="_blank">Гостевая книга</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamRef.htm" class=menu target="_blank">Ссылки</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamPress.htm" class=menu target="_blank">Пресса о нас</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/VidicomViewer_help.htm" class=menu target="_blank">Помощь</a>
+      &nbsp;
+<a class=menu href=main.php?lng=en&skin=2&dir=4832> <b>English</b> </a>    &nbsp;
+<font size=2>	<a href="http://vidicor.ru/SatReceiving.htm" target="_blank">[Как принимать спутниковую трансляцию?]</a> </font>
+    </td>
+  </tr>
+</table>
+    </td>
+</table>
+</center>
+
+<br/>
+
+<table valign="top" width="100%" cellpadding=0 cellspacing=0>
+<tr>
+        <td valign="top" align="left" width="0">
+        <div style="width:257px;max-width:257px;margin:0;padding:0;">
+
+<!-- Выдача перечня представлений -->
+<form name=search style="display:inline" method=POST action="main.php?lng=ru&skin=2&dir=4832">
+	<select size=1 name="select_skin" onChange="goto_page(this.options)">
+	<option   value=1> Афиша (обратно-хронологически)
+ <option selected value=2> Каталог с деревом (тематически)
+ <option   value=3> Каталог без дерева (тематически)
+ <option   value=4> Таблица без дерева
+ <option   value=5> Таблица с деревом
+ <option   value=6> Тестовое представление 1
+ <option   value=7> Тестовое представление 2
+ <option   value=8> Тестовое представление 3
+ 	</select>
+
+
+<!-- Поиск -->
+	<input type=text name=find_str value="" size=23>
+	<input type=submit value= Искать... >
+	
+</form>
+
+<!-- Приглашение к созданию/редактированию/удалению скинов -->
+	<script style="display:none">
+function goto_page(options) 
+	{
+	var url = options[options.selectedIndex].value;
+	var howdy = window.open("main.php?lng=ru&skin="+url, target="_top");
+	}
+</script>        </div>
+        </td>
+
+        <td valign="middle" align="center" width="100%" valign="bottom">
+
+<!-- ############################## Название ################################ -->
+        <font class=Name color=#2b0079>
+
+Общее собрание 
+Уральского отделения 
+Российской академии наук 
+Актовый зал ИФМ 
+г.Екатеринбург         </font>
+
+<!-- ############################## Маркер [Редактирование] ################################ -->
+                </font>
+
+        <center>(шаблон 2, скин 2)</center>
+
+        <br><br>
+        <center>
+        Кнопки с цифрами -- запуск проигрывания с разными уровнями качества<br>
+        Кнопки с желтой папкой -- войти в подраздел
+        </center>
+        </td>
+
+        </tr>
+</table>
+
+<br/>
+
+<center><font face=Arial size=2>
+</font></center><table border="0" style="width:100%;max-width:100%;margin:0;padding:0;cellpadding:0;cellspacing:0" cellpadding="0" cellspacing="0">
+        <tr>
+        <td id="idTreeShowTd" valign="top" style="background-color:#B3B4C1;padding:0;margin:0;" width="257"><div class="scroll_tree" align="left" ><UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=5619#title_dir' title='Каналы вещания компании "Видикор"'>  Каналы вещания компании "Видикор"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5174#title_dir' title='Сеть живых камер и ретрансляций'>  Сеть живых камер и ретрансляций</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4730#title_dir' title='Архив видеозаписей'>  Архив видеозаписей</a><UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=6488#title_dir' title='Видеоархивы Президиума УрО РАН'>  Видеоархивы Президиума УрО РАН</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5259#title_dir' title='Государственный демонстрационно-выставочный центр.
+Нижний Тагил, пос.Старатель'>  Государственный демонстрационно-выставочный центр.  Нижний Тагил, пос.Старатель</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5001#title_dir' title='Пресс-центр информационного агентства
+"Интерфакс-Урал"'>  Пресс-центр информационного агентства  "Интерфакс-Урал"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4981#title_dir' title='ИТАР-ТАСС-Урал'>  ИТАР-ТАСС-Урал</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4960#title_dir' title='Спорт
+'>  Спорт  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4934#title_dir' title='Музыка и кино'>  Музыка и кино</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4917#title_dir' title='
+Жизнь Екатеринбурга
+'>    Жизнь Екатеринбурга  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4912#title_dir' title='Религия
+'>  Религия  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4845#title_dir' title='
+Экономика и политика
+'>    Экономика и политика  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4735#title_dir' title='
+Наука и образование
+'>    Наука и образование  </a><UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=6411#title_dir' title='Видеозаписи академика Красовского Н.Н.'>  Видеозаписи академика Красовского Н.Н.</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6363#title_dir' title=''>  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6324#title_dir' title=''>  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6297#title_dir' title='Офтальмологическая конференция. Живая хирургия.'>  Офтальмологическая конференция. Живая хирургия.</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6291#title_dir' title='Фрагменты конференции Российской ассоциации бизнес образования.'>  Фрагменты конференции Российской ассоциации бизнес образования.</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6287#title_dir' title='Лекция А.Н.Терехова для студентов матмеха УрГУ'>  Лекция А.Н.Терехова для студентов матмеха УрГУ</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6286#title_dir' title='Лекция А.Н.Терехова на матмехе УрГУ "Преподавание программной инженерии в России"
+
+'>  Лекция А.Н.Терехова на матмехе УрГУ "Преподавание программной инженерии в России"    </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6258#title_dir' title='Торжественное вручение Демидовских премий за 2007г.'>  Торжественное вручение Демидовских премий за 2007г.</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6255#title_dir' title='V Международная научно-методическая конференция 
+"Новые образовательные технологии в вузе"'>  V Международная научно-методическая конференция   "Новые образовательные технологии в вузе"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6204#title_dir' title='Открытая всероссийская научно-исследовательская конференция молодых исследователей'>  Открытая всероссийская научно-исследовательская конференция молодых исследователей</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=6170#title_dir' title='Лента новостей ИТАР-ТАСС » Россия и мир
+
+Уральские математики запустили пять интернет-телеканалов'>  Лента новостей ИТАР-ТАСС » Россия и мир    Уральские математики запустили пять интернет-телеканалов</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5791#title_dir' title='2-я международная конференция «Информационно-математические технологии в экономике, технике и образовании» -- трансляция и многосторонние видеомосты'>  2-я международная конференция «Информационно-математические технологии в экономике, технике и образовании» -- трансляция и многосторонние видеомосты</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5334#title_dir' title='Вручение стипендии им. Н.И.Слободчикова'>  Вручение стипендии им. Н.И.Слободчикова</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5330#title_dir' title='Президент Российской академии наук
+Юрий Осипов'>  Президент Российской академии наук  Юрий Осипов</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5325#title_dir' title='Демидовская премия 2006'>  Демидовская премия 2006</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5317#title_dir' title='Юбилей ректора Уральского государственного университета им. А.М.Горького
+Владимира Евгеньевича Третьякова'>  Юбилей ректора Уральского государственного университета им. А.М.Горького  Владимира Евгеньевича Третьякова</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5312#title_dir' title='Всемирный форум
+"Интеллектуальная Россия",
+II Ассамблея
+
+'>  Всемирный форум  "Интеллектуальная Россия",  II Ассамблея    </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5306#title_dir' title='Дни науки в Екатеринбурге'>  Дни науки в Екатеринбурге</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5305#title_dir' title='Заседание рабочей группы по телемедицине Регионального содружества в области связи стран СНГ'>  Заседание рабочей группы по телемедицине Регионального содружества в области связи стран СНГ</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5297#title_dir' title='Фестиваль
+художественной
+математики'>  Фестиваль  художественной  математики</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5220#title_dir' title='Научная конференция, посвященная 50-летию СОМИ-ИММ'>  Научная конференция, посвященная 50-летию СОМИ-ИММ</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5219#title_dir' title='Торжественное заседание, посвященное пятидесятилетиюСОМИ-ИММ'>  Торжественное заседание, посвященное пятидесятилетиюСОМИ-ИММ</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5208#title_dir' title='Губернатор Свердловской области Э.Э.Россель в Институте математики и механики УрО РАН'>  Губернатор Свердловской области Э.Э.Россель в Институте математики и механики УрО РАН</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5207#title_dir' title='Сателлитный симпозиум "ALCON" с демонстрацией "живой" хирургии:
+Инновации в хирургии катаракты
+
+'>  Сателлитный симпозиум "ALCON" с демонстрацией "живой" хирургии:  Инновации в хирургии катаракты    </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5203#title_dir' title='Празднование юбилея академика Г.А.Месяца'>  Празднование юбилея академика Г.А.Месяца</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5200#title_dir' title='Демидовская премия
+2005 года'>  Демидовская премия  2005 года</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5198#title_dir' title='Phacoemulsification Using
+ NeoSoniX(TM) Technology with the AdanTec(TM) Upgrade
+
+Robert Lehmann, MD'>  Phacoemulsification Using   NeoSoniX(TM) Technology with the AdanTec(TM) Upgrade    Robert Lehmann, MD</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5197#title_dir' title='37-я Молодежная школа-конференция "Кунгурка-2006"'>  37-я Молодежная школа-конференция "Кунгурка-2006"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5196#title_dir' title='Сухов А.М. (Самара, "ИнтернетТВ")
+"Какие требования должны предъявляться к сети для передачи видеопотоков?"'>  Сухов А.М. (Самара, "ИнтернетТВ")  "Какие требования должны предъявляться к сети для передачи видеопотоков?"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5193#title_dir' title='Николай
+Иванович
+Слободчиков'>  Николай  Иванович  Слободчиков</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5192#title_dir' title='УГТУ-УПИ:
+Лекции'>  УГТУ-УПИ:  Лекции</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5186#title_dir' title='Лекция руководителя отдела оснований программирования 
+фирмы Microsoft Ю.Ш. Гуревича (США)
+"Что такое алгоритм?"
+в УрГУ
+'>  Лекция руководителя отдела оснований программирования   фирмы Microsoft Ю.Ш. Гуревича (США)  "Что такое алгоритм?"  в УрГУ  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5185#title_dir' title='Доклад руководителя отдела оснований программирования  фирмы Microsoft Ю.Ш. Гуревича (США)
+"Легенды и мифы in math and computer science"'>  Доклад руководителя отдела оснований программирования  фирмы Microsoft Ю.Ш. Гуревича (США)  "Легенды и мифы in math and computer science"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5184#title_dir' title='Российский студенческий форум.
+Встреча студентов ряда российских вузов с Министром образования и науки РФ А.А.Фурсенко 
+
+'>  Российский студенческий форум.  Встреча студентов ряда российских вузов с Министром образования и науки РФ А.А.Фурсенко     </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5183#title_dir' title='Объединенный ученый совет УрО РАН по математике, механике и информатике, посвященный развитию телемедицины в УрФО'>  Объединенный ученый совет УрО РАН по математике, механике и информатике, посвященный развитию телемедицины в УрФО</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5110#title_dir' title='Празднование пятидесятилетия Радиотехнического факультета
+УГТУ-УПИ 6-8.05.2002
+'>  Празднование пятидесятилетия Радиотехнического факультета  УГТУ-УПИ 6-8.05.2002  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5103#title_dir' title='Учебные фильмы УГТУ-УПИ'>  Учебные фильмы УГТУ-УПИ</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5101#title_dir' title='Поздравление акад. Н.Н.Красовского ректору ЧелГУ В.Д.Батухтину в связи с его юбилеем'>  Поздравление акад. Н.Н.Красовского ректору ЧелГУ В.Д.Батухтину в связи с его юбилеем</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5086#title_dir' title='Телемедицина'>  Телемедицина</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5003#title_dir' title='Лекция проф. Никлауса Вирта
+"Анализ инноваций
+в компьютерных науках
+за последние 40 лет"
+г.Екатеринбург
+Актовый зал УрГУ'>  Лекция проф. Никлауса Вирта  "Анализ инноваций  в компьютерных науках  за последние 40 лет"  г.Екатеринбург  Актовый зал УрГУ</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=5000#title_dir' title='Телеконференция-презентация
+нового сборника научных статей
+"Психологическое сопровождение
+и организационно-медицинские
+алгоритмы реабилитации"
+г.Екатеринбург
+УрГУ'>  Телеконференция-презентация  нового сборника научных статей  "Психологическое сопровождение  и организационно-медицинские  алгоритмы реабилитации"  г.Екатеринбург  УрГУ</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4842#title_dir' title='Международный семинар 
+"Теория управления" 
+и теория обобщенных решений
+уравнений Гамильтона-Якоби"
+"Зеленый Мыс"'>  Международный семинар   "Теория управления"   и теория обобщенных решений  уравнений Гамильтона-Якоби"  "Зеленый Мыс"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4841#title_dir' title='Форум "Здоровье нации  
+- основа процвет. России":  
+Интернет-видеомост между 
+НПРЦ "Бонум" (г.Ек-бург) 
+и ВВЦ (г.Москва) '>  Форум "Здоровье нации    - основа процвет. России":    Интернет-видеомост между   НПРЦ "Бонум" (г.Ек-бург)   и ВВЦ (г.Москва) </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4840#title_dir' title='
+"Ярмарка вакансий" 
+молодых специалистов.
+Интернет-видеомост:
+"Бонум" - УГТУ-УПИ -
+Минздрав Свердл. обл.'>    "Ярмарка вакансий"   молодых специалистов.  Интернет-видеомост:  "Бонум" - УГТУ-УПИ -  Минздрав Свердл. обл.</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4839#title_dir' title='
+Лекции по 
+технике безопасности 
+для руководителей 
+подразделений УрО РАН 
+Актовый зал ИФМ '>    Лекции по   технике безопасности   для руководителей   подразделений УрО РАН   Актовый зал ИФМ </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4838#title_dir' title='
+Врачебный консилиум  
+по Интернет-видеосвязи: 
+Екатеринбург - 
+- Краснотурьинск 
+'>    Врачебный консилиум    по Интернет-видеосвязи:   Екатеринбург -   - Краснотурьинск   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4837#title_dir' title='Заседание ОУС УрО РАН 
+по ММИ, посвященное 
+медицинской тематике 
+Актовый зал ИММ УрО 
+г.Екатеринбург'>  Заседание ОУС УрО РАН   по ММИ, посвященное   медицинской тематике   Актовый зал ИММ УрО   г.Екатеринбург</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4833#title_dir' title='
+Публичные лекции 
+по физике
+Конференц-зал ФИАН
+
+г.Москва '>    Публичные лекции   по физике  Конференц-зал ФИАН    г.Москва </a><LI> <a class=A1 href='main.php?skin=2&dir=4735&lng=ru#title_dir' title='
+Общее собрание 
+Уральского отделения 
+Российской академии наук 
+Актовый зал ИФМ 
+г.Екатеринбург '> <b>[-] 
+Общее собрание 
+Уральского отделения 
+Российской академии наук 
+Актовый зал ИФМ 
+г.Екатеринбург </b></a><UL></UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=4831#title_dir' title='
+Встреча Президиума 
+УрО РАН 
+с делегацией 
+Республики Беларусь 
+г.Екатеринбург '>    Встреча Президиума   УрО РАН   с делегацией   Республики Беларусь   г.Екатеринбург </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4830#title_dir' title='Уральский региональный центр медицины катастроф.
+Врачебный консилиум через спутниковый видеомост 
+Екатеринбург - Ирбит '>  Уральский региональный центр медицины катастроф.  Врачебный консилиум через спутниковый видеомост   Екатеринбург - Ирбит </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4829#title_dir' title='Доклады сотрудников
+Научно-исслед. центра
+мультимедиа технологий
+ИММ УрО РАН
+"Кунгурка-2005"'>  Доклады сотрудников  Научно-исслед. центра  мультимедиа технологий  ИММ УрО РАН  "Кунгурка-2005"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4828#title_dir' title='В.Л.Авербух
+"Разработка специализированных систем компьютерной визуализации"'>  В.Л.Авербух  "Разработка специализированных систем компьютерной визуализации"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4827#title_dir' title='
+Заседание Ученого 
+совета ИММ УрО РАН, 
+посвященное 60-летию 
+со дня рождения 
+академика А.И.Субботина '>    Заседание Ученого   совета ИММ УрО РАН,   посвященное 60-летию   со дня рождения   академика А.И.Субботина </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4826#title_dir' title='
+Торжественная церемония 
+вручения 
+Демидовской премии 2004 
+Резиденция губернатора
+Свердловской области'>    Торжественная церемония   вручения   Демидовской премии 2004   Резиденция губернатора  Свердловской области</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4822#title_dir' title='
+36 Молодежная 
+школа-конференция 
+"Проблемы теоретической 
+и прикладной математики"
+Кунгурка-2005 '>    36 Молодежная   школа-конференция   "Проблемы теоретической   и прикладной математики"  Кунгурка-2005 </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4821#title_dir' title='
+Празднование 
+50-летнего юбилея 
+В.В.Прохорова 
+Актовый зал 
+ИММ УрО РАН '>    Празднование   50-летнего юбилея   В.В.Прохорова   Актовый зал   ИММ УрО РАН </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4820#title_dir' title='
+Заседание Совета РАН по 
+высокопроизводительным 
+технологиям вычислений
+г.Москва, Президиум РАН, 
+г.Екатеринбург, ИММ'>    Заседание Совета РАН по   высокопроизводительным   технологиям вычислений  г.Москва, Президиум РАН,   г.Екатеринбург, ИММ</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4819#title_dir' title='
+Заседание 
+Совета ректоров
+Свердловской области
+Зал Ученого совета УрГУ 
+г.Екатеринбург '>    Заседание   Совета ректоров  Свердловской области  Зал Ученого совета УрГУ   г.Екатеринбург </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4818#title_dir' title='
+Новый год в ИММ УрО РАН'>    Новый год в ИММ УрО РАН</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4817#title_dir' title='
+Видеомост между Президентом РАН акад.
+ Ю.С.Осиповым и акад. Н.Н.Красовским
+    '>    Видеомост между Президентом РАН акад.   Ю.С.Осиповым и акад. Н.Н.Красовским      </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4816#title_dir' title='
+Заседание Президиума 
+Российской академии наук
+
+г.Москва '>    Заседание Президиума   Российской академии наук    г.Москва </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4815#title_dir' title='
+"Приборостроение. 
+Электроника. 
+Электротехника - 2004 "
+КОСК "Россия" 
+Екатеринбург '>    "Приборостроение.   Электроника.   Электротехника - 2004 "  КОСК "Россия"   Екатеринбург </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4814#title_dir' title='IV международная выставка-форум "ИнфоКом-2004"
+
+  '>  IV международная выставка-форум "ИнфоКом-2004"      </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4813#title_dir' title='
+Поздравление 
+Председателя УрО РАН 
+академика В.А.Черешнева 
+c 60-летием 
+Президиум УрО РАН '>    Поздравление   Председателя УрО РАН   академика В.А.Черешнева   c 60-летием   Президиум УрО РАН </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4811#title_dir' title='"Фундаментальные исследования и региональные конкурсы РФФИ"'>  "Фундаментальные исследования и региональные конкурсы РФФИ"</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4810#title_dir' title='Сравнение
+работы серверов
+Windows Media (Microsoft) и
+Hulmer-U (НИЦ МТ ИММ УрО РАН)'>  Сравнение  работы серверов  Windows Media (Microsoft) и  Hulmer-U (НИЦ МТ ИММ УрО РАН)</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4809#title_dir' title='Третья инновационная конференция.
+Первый Евро-Азиатский форум инвестиций и инноваций 
+"Инвест-проектэкспо 2004"
+'>  Третья инновационная конференция.  Первый Евро-Азиатский форум инвестиций и инноваций   "Инвест-проектэкспо 2004"  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4806#title_dir' title='
+ОУС УрО РАН по ММИ: 
+Отчетная конференция 
+по проектам РФФИ-Урал
+Актовый зал 
+ИММ УрО РАН '>    ОУС УрО РАН по ММИ:   Отчетная конференция   по проектам РФФИ-Урал  Актовый зал   ИММ УрО РАН </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4805#title_dir' title='Празднование 80 летия академика Н.Н.Красовского'>  Празднование 80 летия академика Н.Н.Красовского</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4799#title_dir' title='XIX съезд 
+Физиологического общества 
+им. И.П.Павлова  
+Екатеринбург 
+ККТ "Космос" '>  XIX съезд   Физиологического общества   им. И.П.Павлова    Екатеринбург   ККТ "Космос" </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4798#title_dir' title='
+Заседание 
+Ученого совета
+Уральского госуниверситета
+'>    Заседание   Ученого совета  Уральского госуниверситета  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4797#title_dir' title='
+УПИ - 175000 выпускников! '>    УПИ - 175000 выпускников! </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4796#title_dir' title='Научный доклад В.Л.Авербуха
+ "Cистемы компьютерной визуализации "'>  Научный доклад В.Л.Авербуха   "Cистемы компьютерной визуализации "</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4795#title_dir' title='Сессия молодых ученых
+ИММ УрО РАН'>  Сессия молодых ученых  ИММ УрО РАН</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4790#title_dir' title='
+Уральская государственная  архитектурно-художественная академия:
+Защита дипломов
+'>    Уральская государственная  архитектурно-художественная академия:  Защита дипломов  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4785#title_dir' title='
+Объединенный Иммунологический Форум
+Екатеринбург
+ККТ "Космос" 
+'>    Объединенный Иммунологический Форум  Екатеринбург  ККТ "Космос"   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4784#title_dir' title='Заседание Президиума Уральского отделения РАН
+'>  Заседание Президиума Уральского отделения РАН  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4783#title_dir' title='
+Общее собрание Уральского отделения РАН
+Актовый зал ИФМ 
+'>    Общее собрание Уральского отделения РАН  Актовый зал ИФМ   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4782#title_dir' title='
+Объединенный Ученый совет УрО РАН
+по  математике, механике и информатике 
+'>    Объединенный Ученый совет УрО РАН  по  математике, механике и информатике   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4778#title_dir' title='
+Региональная молодежная школа-конференция Екатеринбург
+'>    Региональная молодежная школа-конференция Екатеринбург  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4777#title_dir' title='
+Вручение Демидовской премии 2003 года '>    Вручение Демидовской премии 2003 года </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4776#title_dir' title='"Устойчивость движения"
+Фильм об Уральской школе математики
+'>  "Устойчивость движения"  Фильм об Уральской школе математики  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4775#title_dir' title='
+Защита докторской диссертацииЛ.Б.Соколинского'>    Защита докторской диссертацииЛ.Б.Соколинского</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4770#title_dir' title='
+Общее собрание Российской академии наук'>    Общее собрание Российской академии наук</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4769#title_dir' title='
+Защита докторской диссертацииВ.В.Прохорова'>    Защита докторской диссертацииВ.В.Прохорова</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4768#title_dir' title='
+Научно-практическая конференция по итогам конкурса
+РФФИ &ndash; "Урал" 
+2001 &ndash; 2003  
+'>    Научно-практическая конференция по итогам конкурса  РФФИ &ndash; "Урал"   2001 &ndash; 2003    </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4767#title_dir' title='
+Защита докторской диссертацииН.Н.Субботиной'>    Защита докторской диссертацииН.Н.Субботиной</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4765#title_dir' title='
+Общее собрание Уральского отделения РАН 
+'>    Общее собрание Уральского отделения РАН   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4764#title_dir' title='
+Cессия Объединенного Ученого совета УрО РАН по математике
+и информатике 
+'>    Cессия Объединенного Ученого совета УрО РАН по математике  и информатике   </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4762#title_dir' title='Региональная молодежная школа-конференция Екатеринбург   
+'>  Региональная молодежная школа-конференция Екатеринбург     </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4760#title_dir' title='Беседы академика Н.Н.Красовского'>  Беседы академика Н.Н.Красовского</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4758#title_dir' title='
+Доклад академика Л.Д.Фаддеева
+"Узлы и солитоны в трехмерном пространстве"
+'>    Доклад академика Л.Д.Фаддеева  "Узлы и солитоны в трехмерном пространстве"  </a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4756#title_dir' title='
+Вручение Демидовской премии 2002'>    Вручение Демидовской премии 2002</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4754#title_dir' title='Всероссийская конференция, посвященная 70-летию 
+академика А.Ф.Сидорова'>  Всероссийская конференция, посвященная 70-летию   академика А.Ф.Сидорова</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4753#title_dir' title='
+Научно-практическая конференция, посвященная 10-летию РФФИ'>    Научно-практическая конференция, посвященная 10-летию РФФИ</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4747#title_dir' title='Празднование 70-летия академической науки на Урале 14-16.10.2002'>  Празднование 70-летия академической науки на Урале 14-16.10.2002</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4746#title_dir' title='Пресс-конференция профсоюзной организации работников УрО РАН'>  Пресс-конференция профсоюзной организации работников УрО РАН</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4744#title_dir' title='
+Празднование пятидесятилетия Радиотехнического факультета УГТУ-УПИ'>    Празднование пятидесятилетия Радиотехнического факультета УГТУ-УПИ</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4740#title_dir' title='Уральский государственный технический университет УГТУ-УПИ'>  Уральский государственный технический университет УГТУ-УПИ</a><LI> <a class=A1 href='?lng=ru&skin=2&dir=4736#title_dir' title='Компьютерное моделирование'>  Компьютерное моделирование</a></UL><LI> <a class=A1 href='?lng=ru&skin=2&dir=4731#title_dir' title='Видеоархивы ИММ УрО РАН
+'>  Видеоархивы ИММ УрО РАН  </a></UL></UL></div>
+        </td>
+        <td id="idItemsTd" align="center" valign="top" 
+                style="margin:0;padding:0;width:expression((document.body.clientWidth - 257) + 'px');min-width:width:expression((document.body.clientWidth - document.getElementById('idTreeShowTd').clientWidth) + 'px');">
+
+<!-- ####################################### Вывод основной части ######################################## -->
+
+                <!-- ----------------------------------------------------------------------------- -->
+                <table bgcolor=#99CCFF class="recitem" border=1 width=100% Title="Set of objects">
+                <!-- ----------------------------------------------------------------------------- -->
+
+                
+        <center>
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=678&var=1"><img src=pics/picUran1_01.jpg  height=144 width=180  alt=id=678 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=678&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=678&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=678&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 1<br>
+Минута памяти<br>
+<br>
+<br>
+<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=678)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=679&var=1"><img src=pics/picUran1_02.jpg  height=144 width=180  alt=id=679 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=679&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=679&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=679&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 2<br>
+Регламент<br>
+Общего собрания<br>
+УрО РАН<br>
+(В.А.Черешнев)<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=679)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=680&var=1"><img src=pics/picUran1_03.jpg  height=144 width=180  alt=id=680 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=680&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=680&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=680&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 3<br>
+Выступление Первого<br>
+заместителя Председателя<br>
+Правительства Свердл. обл.<br>
+Г.А.Ковалевой<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=680)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=681&var=1"><img src=pics/picUran1_04.jpg  height=144 width=180  alt=id=681 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=681&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=681&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=681&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 4<br>
+Отчетный доклад <br>
+Председателя УрО РАН <br>
+академика<br>
+В.А.Черешнева<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=681)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=682&var=1"><img src=pics/picUran1_05.jpg  height=144 width=180  alt=id=682 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=682&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=682&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=682&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 5<br>
+Продолжение<br>
+Отчетного<br>
+доклада<br>
+<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=682)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=683&var=1"><img src=pics/picUran1_06.jpg  height=144 width=180  alt=id=683 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=683&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=683&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=683&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 6<br>
+Отчетный доклад:<br>
+О работах<br>
+НИЦ МТ <br>
+ИММ УрО РАН<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=683)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=684&var=1"><img src=pics/picUran1_07.jpg  height=144 width=180  alt=id=684 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=684&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=684&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=684&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 7<br>
+Продолжение<br>
+Отчетного<br>
+доклада<br>
+<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=684)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=685&var=1"><img src=pics/picUran1_08.jpg  height=144 width=180  alt=id=685 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=685&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=685&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=685&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 8<br>
+Окончание<br>
+Отчетного<br>
+доклада<br>
+<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=685)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=686&var=1"><img src=pics/picUran2_01.jpg  height=144 width=180  alt=id=686 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=686&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=686&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=686&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 9<br>
+О работе Президиума<br>
+УрО РАН в 2004 году<br>
+Доклад гл.уч.секретаря<br>
+ч.-к. Е.П.Романова<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=686)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=687&var=1"><img src=pics/picUran2_02.jpg  height=144 width=180  alt=id=687 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=687&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=687&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=687&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 10<br>
+Выборы <br>
+счетной и редакционной<br>
+комиссии<br>
+Академик В.А.Черешнев<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=687)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=688&var=1"><img src=pics/picUran2_03.jpg  height=144 width=180  alt=id=688 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=688&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=688&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=688&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 11<br>
+О работе Комиссии<br>
+по усовершенствованию<br>
+структуры УрО РАН<br>
+Академик  В.Н.Большаков<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=688)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=689&var=1"><img src=pics/picUran2_04.jpg  height=144 width=180  alt=id=689 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=689&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=689&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=689&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 12<br>
+Замечания по докладу<br>
+о структуризации<br>
+УрО РАН<br>
+Академик В.А.Черешнев<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=689)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=690&var=1"><img src=pics/picUran3_01.jpg  height=144 width=180  alt=id=690 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=690&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=690&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=690&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 13<br>
+Обсуждение докладов:<br>
+В.Г.Дегтярь<br>
+<br>
+<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=690)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=691&var=1"><img src=pics/picUran3_02.jpg  height=144 width=180  alt=id=691 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=691&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=691&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=691&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 14<br>
+Обсуждение докладов:<br>
+Ф.Н.Юдахин<br>
+<br>
+<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=691)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=692&var=1"><img src=pics/picUran3_03.jpg  height=144 width=180  alt=id=692 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=692&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=692&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=692&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 15<br>
+Обсуждение докладов:<br>
+В.Л.Яковлев<br>
+<br>
+<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=692)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=693&var=1"><img src=pics/picUran3_04.jpg  height=144 width=180  alt=id=693 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=693&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=693&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=693&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 16<br>
+Обсуждение докладов:<br>
+А.И.Татаркин<br>
+<br>
+<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=693)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=694&var=1"><img src=pics/picUran3_05.jpg  height=144 width=180  alt=id=694 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=694&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=694&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=694&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 17<br>
+Обсуждение докладов:<br>
+Б.В.Аюбашев<br>
+<br>
+<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=694)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=695&var=1"><img src=pics/picUran3_06.jpg  height=144 width=180  alt=id=695 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=695&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=695&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=695&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 18<br>
+Обсуждение докладов:<br>
+О.В.Бухарин<br>
+<br>
+<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=695)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=696&var=1"><img src=pics/picUran3_07.jpg  height=144 width=180  alt=id=696 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=696&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=696&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=696&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 19<br>
+Обсуждение докладов:<br>
+В.Н.Чарушин<br>
+<br>
+<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=696)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=697&var=1"><img src=pics/picUran3_08.jpg  height=144 width=180  alt=id=697 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=697&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=697&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=697&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Часть 20<br>
+Счетная и<br>
+редакционная<br>
+комиссии<br>
+<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=697)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+
+
+<TABLE bgcolor=#99CCFF width="188" height="362" border=1 class="recitem">
+<TR> <!-- ----------------------------------------------------------------- -->
+
+    
+
+<TD align=center valign=top> <!-- ----------------------------------------------------------------- -->
+   <a href="rec.php?lng=ru&skin=2&dir=698&var=1"><img src=pics/picUran3_10.jpg  height=144 width=180  alt=id=698 border=0</a>
+<hr><center><a href=rec.php?lng=ru&skin=2&dir=698&var=1>
+				<img src="pictures/1.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=698&var=2>
+				<img src="pictures/2.gif" alt="" border="0"></a> 
+<a href=rec.php?lng=ru&skin=2&dir=698&var=3>
+				<img src="pictures/3.gif" alt="" border="0"></a> 
+</center>
+	<hr>    <!-- ------------------------ Вывод описания ------------------------------------- -->
+
+<div class="scroll_1" align="center" style="text-align:center;" height=100%>
+<center>
+	<TABLE align="center" HEIGHT="100%">
+	<TR>
+	<TD align="center" VALIGN="MIDDLE" BORDER=10>
+
+		<font face="Arial" size=2 color="#000000">
+		
+Заключительная<br>
+часть<br>
+<br>
+<br>
+<br>
+		</font>
+	    <!-- ------------------------ Вывод id элемента ------------------------------------- -->
+		<br>
+		<font size=1 face="Verdana, Arial, Helvetica, sans-serif" color="#888888">
+ (id=698)
+	</TD>
+	</TR>
+	</TABLE>
+</center>
+
+</div>
+</td>
+</TR>
+</table>
+
+        </table>
+        </center>
+        </td>
+        </tr>
+        </table>
+        </center>1..21
+<center><font face=Arial size=2>
+</font><br>
+</center>
+    <a href="errr.php?dir=4832&lng=ru" class=menu>[Сообщить об ошибке]</a>
+    &nbsp;&nbsp;&nbsp;
+<a href=adminstart2.php?lng=ru&skin=2&dir=4832 class=menu>[Администрировать]</a>
+<br>
+<br>
+
+<center>
+<table width="100%" bgcolor='#CCCCCC'>
+<td>
+<font face=Arial size=1>
+        (c) НПЦ Видикор, 2008.
+</font>
+</td>
+</table>
+</center></body>
+</html>

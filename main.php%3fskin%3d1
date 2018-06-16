@@ -1,0 +1,783 @@
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+<!-- ========================================== Начало вывода страницы ========================================== -->
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Vidicor: Video-On-Line, Video-On-Demand, Video-On-Schedule ru</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="css/styletab.css" rel="stylesheet" type="text/css">
+<link href="css/style_main.css" rel="stylesheet" type="text/css"> 
+<link href="css/style2.css" rel="stylesheet" type="text/css"> 
+
+<SCRIPT language='JScript' src='rmxfrecv.js'></SCRIPT>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+  var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+  if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script></head>
+
+<body><table bgcolor=#B3B4C1 border="1" width="100%" rules="none">
+  <tr>
+    <td width="80%" valign="middle" align="center">
+      <p><font size=2>
+        &copy; Cредства передачи видео через Интернет, примененные на этом сайте, разработаны
+        <a href="http://www.vidicor.ru">Научно-производственным центром "Vidicor Ltd."</a>
+        <br>на базе исследований 
+        <a href="/vslRu/index.htm" target="_blank"> 
+        Научно-исследовательского центра мультимедиа технологий</a>
+        <a href="http://www.imm.uran.ru">Института&nbsp;математики&nbsp;и&nbsp;механики</a>
+        <a href="http://www.uran.ru">Уральского&nbsp;отделения</a>
+        <a href="http://www.ras.ru">Российской&nbsp;академии&nbsp;наук</a>
+        </font> 
+      </p>
+    </td>
+	<td>
+	      <a href="http://vidicor.ru" target="_blank"><img width="60%"  src="/pictures/vidicor.jpg" ></a>
+	</td>
+  </tr>
+</table>
+<br/><!-- Кнопки "Выше" и "Наверх" -->
+
+<center>
+<table border=0 width="100%">
+  <tr>
+    <td width="20%" align="left">
+	<a href="main.php?base=bases&lng=ru"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('home','','lng/ru/images/home1.gif',1)" 
+	onMouseDown="MM_swapImage('home','','lng/ru/images/home3.gif',1)">
+	<img src="lng/ru/images/home2.gif" name="home"  border="0"  alt=""></a>
+
+      &nbsp;
+      <a href="main.php?skin=1&lng=ru"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('up','','lng/ru/images/up1.gif',1)" 
+	onMouseDown="MM_swapImage('up','','lng/ru/images/up3.gif',1)">
+	<img src="lng/ru/images/up2.gif" name="up"  border="0"  alt=""></a>
+
+      &nbsp;
+    </td>
+
+    <td>
+
+<table border=0 width="100%" valign=top>
+  <tr valign=top>
+    <td width="100%" align="left" valign=top>
+      <a href="http://www.vidicor.ru" class=menu target="_blank">О системе</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/gb.shtml" class=menu target="_blank">Гостевая книга</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamRef.htm" class=menu target="_blank">Ссылки</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamPress.htm" class=menu target="_blank">Пресса о нас</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/VidicomViewer_help.htm" class=menu target="_blank">Помощь</a>
+      &nbsp;
+<a class=menu href=main.php?skin=1&lng=en> <b>English</b> </a>    &nbsp;
+<font size=2>	<a href="http://vidicor.ru/SatReceiving.htm" target="_blank">[Как принимать спутниковую трансляцию?]</a> </font>
+    </td>
+  </tr>
+</table>
+    </td>
+</table>
+</center>
+
+<br/>
+
+<table valign="top" width="100%" cellpadding=0 cellspacing=0>
+<tr>
+	<td valign="top" align="left" width="0">
+	<div style="width:257px;max-width:257px;margin:0;padding:0;">
+
+<!-- Выдача перечня представлений -->
+<form name=search style="display:inline" method=POST action="main.php?skin=1&lng=ru">
+	<select size=1 name="select_skin" onChange="goto_page(this.options)">
+	<option selected value=1> Афиша (обратно-хронологически)
+ <option   value=2> Каталог с деревом (тематически)
+ <option   value=3> Каталог без дерева (тематически)
+ <option   value=4> Таблица без дерева
+ <option   value=5> Таблица с деревом
+ <option   value=6> Тестовое представление 1
+ <option   value=7> Тестовое представление 2
+ <option   value=8> Тестовое представление 3
+ 	</select>
+
+
+<!-- Поиск -->
+	<input type=text name=find_str value="" size=23>
+	<input type=submit value= Искать... >
+	
+</form>
+
+<!-- Приглашение к созданию/редактированию/удалению скинов -->
+	<script style="display:none">
+function goto_page(options) 
+	{
+	var url = options[options.selectedIndex].value;
+	var howdy = window.open("main.php?lng=ru&skin="+url, target="_top");
+	}
+</script>	</div>
+	</td>
+
+	<td valign="middle" align="center" width="100%" valign="bottom">
+
+<!-- ############################## Название ################################ -->
+	<font class=Name color=#2b0079>
+Афиша (обратно-хронологически)	</font>
+
+<!-- ############################## Маркер [Редактирование] ################################ -->
+		</font>
+
+	<center>(шаблон 1, скин 1)</center>
+
+	<br><br>
+	<center>
+	Кнопки с цифрами -- запуск проигрывания с разными уровнями качества<br>
+	Кнопки с желтой папкой -- войти в подраздел
+	</center>
+	</td>
+
+	  <!-- для центрирования названия -->
+	<td width="0">
+	<div style="width:257px;min-width:257px;margin:0;padding:0;">
+	</div>
+	</td>
+	</tr>
+</table>
+
+<br/>
+
+<center><font face=Arial size=2>
+Страницы: <big><big><b>[<a href='main.php?skin=1&lng=ru&pos=1#title_dir'>1</a>]</b></big></big>  <a href='main.php?skin=1&lng=ru&pos=2#title_dir'>2</a>  <a href='main.php?skin=1&lng=ru&pos=3#title_dir'>3</a>  <a href='main.php?skin=1&lng=ru&pos=4#title_dir'>4</a>  <a href='main.php?skin=1&lng=ru&pos=5#title_dir'>5</a>  <a href='main.php?skin=1&lng=ru&pos=6#title_dir'>6</a>  <a href='main.php?skin=1&lng=ru&pos=7#title_dir'>7</a>  <a href='main.php?skin=1&lng=ru&pos=8#title_dir'>8</a>  <a href='main.php?skin=1&lng=ru&pos=9#title_dir'>9</a>  <a href='main.php?skin=1&lng=ru&pos=10#title_dir'>10</a>  <a href='main.php?skin=1&lng=ru&pos=11#title_dir'>11</a>  <a href='main.php?skin=1&lng=ru&pos=12#title_dir'>12</a>  <a href='main.php?skin=1&lng=ru&pos=13#title_dir'>13</a>  <a href='main.php?skin=1&lng=ru&pos=14#title_dir'>14</a>  <a href='main.php?skin=1&lng=ru&pos=15#title_dir'>15</a>  <a href='main.php?skin=1&lng=ru&pos=16#title_dir'>16</a>  <a href='main.php?skin=1&lng=ru&pos=17#title_dir'>17</a>  <a href='main.php?skin=1&lng=ru&pos=18#title_dir'>18</a>  <a href='main.php?skin=1&lng=ru&pos=19#title_dir'>19</a>  <a href='main.php?skin=1&lng=ru&pos=20#title_dir'>20</a>  <a href='main.php?skin=1&lng=ru&pos=21#title_dir'>21</a>  <a href='main.php?skin=1&lng=ru&pos=22#title_dir'>22</a>  <a href='main.php?skin=1&lng=ru&pos=23#title_dir'>23</a>  <a href='main.php?skin=1&lng=ru&pos=24#title_dir'>24</a>  <a href='main.php?skin=1&lng=ru&pos=25#title_dir'>25</a>  <a href='main.php?skin=1&lng=ru&pos=26#title_dir'>26</a>  <a href='main.php?skin=1&lng=ru&pos=27#title_dir'>27</a>  <a href='main.php?skin=1&lng=ru&pos=28#title_dir'>28</a>  <a href='main.php?skin=1&lng=ru&pos=29#title_dir'>29</a>  <a href='main.php?skin=1&lng=ru&pos=30#title_dir'>30</a>  <a href='main.php?skin=1&lng=ru&pos=31#title_dir'>31</a>  <a href='main.php?skin=1&lng=ru&pos=32#title_dir'>32</a>  <a href='main.php?skin=1&lng=ru&pos=33#title_dir'>33</a>  <a href='main.php?skin=1&lng=ru&pos=34#title_dir'>34</a>  <a href='main.php?skin=1&lng=ru&pos=35#title_dir'>35</a>  <a href='main.php?skin=1&lng=ru&pos=36#title_dir'>36</a>  <a href='main.php?skin=1&lng=ru&pos=37#title_dir'>37</a>  <a href='main.php?skin=1&lng=ru&pos=38#title_dir'>38</a> </font></center><table border="0" style="width:100%;max-width:100%;margin:0;padding:0;cellpadding:0;cellspacing:0" cellpadding="0" cellspacing="0">
+	<tr>
+	<td id="idItemsTd" align="center" valign="top" 
+		style="margin:0;padding:0;width:expression((document.body.clientWidth - 257) + 'px');min-width:width:expression((document.body.clientWidth - document.getElementById('idTreeShowTd').clientWidth) + 'px');">
+
+<!-- ####################################### Вывод основной части ######################################## -->
+
+		<!-- ----------------------------------------------------------------------------- -->
+		<table bgcolor=#99CCFF class="recitem" border=1 width=100% Title="Set of objects">
+		<!-- ----------------------------------------------------------------------------- -->
+
+		
+	<center>
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 380</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Пятница<br><b>10.04.2009</b><br>	</font>
+        </div>
+		<br><br><br>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Всероссийская олимпиада школьников по информатике в 2009 году.	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<a href=http://archive.vidicor.ru/picForArch/roi.jpg><img src=http://archive.vidicor.ru/picForArch/roi.jpg  alt='' border='0' align=top title=''></a><br>
+<center><i><font size=2 color='#993300'>г. Новосибирск</font></i></center><center><b><table bgcolor='ccddcc'><tr><td>Проводилась прямая трансляция</td><?tr></table></b></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	ООО НПЦ "Видикор" проводило трансляцию олимпиады в сеть Интернет с помощью собственных инновационных разработок.         </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 379</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Вторник<br><b>07.04.2009</b><br>	</font>
+        </div>
+		<br><br><br>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Кинорежиссер Сергей Соловьев провел мастер-класс для екатеринбургских студентов	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<img src=pictures/default.jpg  alt='' border='0' align=top title='http://www.tass-ural.ru/news/?id=45313
+
+ЕКАТЕРИНБУРГ, 7 апреля. /ИТАР-ТАСС/. Известный кинорежиссер Сергей Соловьев стал первым, кто провел сегодня дебютный мастер-класс в формате телемоста для студентов Института кино, который создается на базе Российского государственного профессионально-педагогического университета /РГППУ/. На встречу с автором фильмов «Асса», Сто дней после детства», «Черная роза - эмблема печали, красная роза - эмблема любви», «Анна Каренина» пришли более полусотни студентов. Тему первого занятия «Почему плохого кино больше, чем хорошего» предложили они сами.
+
+Мировой кризис может стать благом для отечественного кино, сказал Соловьев в разговоре со студентами. «До сегодняшнего дня и продюсеры, и многие зрители относились к кино как к сугубо рыночному продукту - например, как к калошам - считает кинорежиссер. - Изменить такое отношение по силам нынешним студентам, которые будут снимать кино завтра».
+
+«В ходе общения с мастером студенты пытаются противопоставить блокбастер вдумчивому, духовному кино, и это уже хорошо», - отметила член правления Уральского отделения Союза кинематографистов, зав. кафедрой РГППУ Наталья Кириллова.
+
+Формат видеообщения, организованного при поддержке ИТАР-ТАСС и научно-производственного центра «Видикор», в РГППУ планируют продолжить с участием других мастеров российского кино.
+
+'><br>
+<center><i><font size=2 color='#993300'>ИТАР-ТАСС г. Москва - РГППУ г. Екатеринбург</font></i></center><center><b><table bgcolor='ccddcc'><tr><td>Проводилась прямая трансляция</td><?tr></table></b></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	http://www.tass-ural.ru/news/?id=45313<br>
+
+ЕКАТЕРИНБУРГ, 7 апреля. /ИТАР-ТАСС/. Известный кинорежиссер Сергей Соловьев стал первым, кто провел сегодня дебютный мастер-класс в формате телемоста для студентов Института кино, который создается на базе Российского государственного профессионально-педагогического университета /РГППУ/. На встречу с автором фильмов «Асса», Сто дней после детства», «Черная роза - эмблема печали, красная роза - эмблема любви», «Анна Каренина» пришли более полусотни студентов. Тему первого занятия «Почему плохого кино больше, чем хорошего» предложили они сами.
+
+Мировой кризис может стать благом для отечественного кино, сказал Соловьев в разговоре со студентами. «До сегодняшнего дня и продюсеры, и многие зрители относились к кино как к сугубо рыночному продукту - например, как к калошам - считает кинорежиссер. - Изменить такое отношение по силам нынешним студентам, которые будут снимать кино завтра».
+
+«В ходе общения с мастером студенты пытаются противопоставить блокбастер вдумчивому, духовному кино, и это уже хорошо», - отметила член правления Уральского отделения Союза кинематографистов, зав. кафедрой РГППУ Наталья Кириллова.
+
+Формат видеообщения, организованного при поддержке ИТАР-ТАСС и научно-производственного центра «Видикор», в РГППУ планируют продолжить с участием других мастеров российского кино.
+
+        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 378</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Понедельник<br><b>02.02.2009</b><br>	</font>
+        </div>
+		<br><br><br>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	VI Международная научно-методическая конференция 
+"Новые образовательные технологии в вузе"
+
+
+
+	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<a href=http://dist.ustu.ru/ioit/files/notv_2009.jpg><img src=http://dist.ustu.ru/ioit/files/notv_2009.jpg  width=200 height=300  alt='' border='0' align=top title='VI Международная научно-методическая конференция 
+"Новые образовательные технологии в вузе".
+2 - 5 февраля 2009 года. 
+
+Секции конференции:
+1. Сетевые технологии в образовании;
+2. Электронные образовательные ресурсы;
+3. Информатизация управления ВУЗом;
+4. Внедрение информационно-коммуникационных технологий в преподавание учебных дисциплин. 
+
+Прямую трансляцию смотрите на сайте http://ustu.vidicor.ru'></a><br>
+<center><i><font size=2 color='#993300'>УГТУ-УПИ, г. Екатеринбург</font></i></center><center><b><table bgcolor='ccddcc'><tr><td>Проводилась прямая трансляция</td><?tr></table></b></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	VI Международная научно-методическая конференция 
+"Новые образовательные технологии в вузе".<br>
+2 - 5 февраля 2009 года. <br>
+<br>
+Секции конференции:<br>
+1. Сетевые технологии в образовании;<br>
+2. Электронные образовательные ресурсы;<br>
+3. Информатизация управления ВУЗом;<br>
+4. Внедрение информационно-коммуникационных технологий в преподавание учебных дисциплин. <br>
+<br>
+Прямую трансляцию смотрите на сайте <a href="http://ustu.vidicor.ru">http://ustu.vidicor.ru</a>        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 377</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Вторник<br><b>13.01.2009</b><br>	</font>
+        </div>
+		<br><br><br>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Конференция «Международный и российский выставочный рынок в период мирового финансового кризиса: проблемы, тенденции, перспективы развития»	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<a href=http://www.expocentr.ru/><img src=http://www.expocentr.ru/common/i/expocentr_logo.gif  alt='' border='0' align=top title='Прямая трансляция с научно-практической конференции «Международный и российский выставочный рынок в период мирового финансового кризиса: проблемы, тенденции, перспективы развития»
+13 января 2009 г. с 12:00 до 17:30
+'></a><br>
+<center><i><font size=2 color='#993300'>г. Москва</font></i></center><center><b><table bgcolor='ccddcc'><tr><td>Проводилась прямая трансляция</td><?tr></table></b></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	Прямая трансляция с научно-практической конференции «Международный и российский выставочный рынок в период мирового финансового кризиса: проблемы, тенденции, перспективы развития»
+13 января 2009 г. с 12:00 до 17:30
+        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 376</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Вторник<br><b>16.12.2008</b><br>	</font>
+        </div>
+		<br><br><br>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	1/4 Финала Областных игр КВН.	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<a href=http://www.brandmedia.ru/pictures/1283_PR20080205132742.jpg><img src=http://www.brandmedia.ru/pictures/1283_PR20080205132742.jpg  alt='' border='0' align=top title=''></a><br>
+<center><i><font size=2 color='#993300'>г. Екатерибург, УГТУ-УПИ</font></i></center><center><b><table bgcolor='ccddcc'><tr><td>Проводилась прямая трансляция</td><?tr></table></b></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	17 декабря, 18.00, В актовом зале УГТУ-УПИ пройдет 1/4 Финала Областных игр КВН. От УГТУ-УПИ участвует команда «Диаманты». НПЦ “Видикор” проводит благотворительную прямую трансляцию фестиваля.
+Трансляцию можно будет смотреть на сайте <a href='http://ustu.vidicor.ru'>http://ustu.vidicor.ru</a>
+
+
+        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 375</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Четверг<br><b>04.12.2008</b><br>	</font>
+        </div>
+		<br><br><br>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Мост компания «Еврогрин» Екатеринбург-Дания	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<a href=http://eurogreen.ru><img src=http://archive.vidicor.ru/images/eurogreen.jpg  alt='' border='0' align=top title=' Общество с ограниченной ответственностью «Инвестиционно-финансовая компания «Еврогрин» создана в апреле 2004 года в городе Екатеринбурге.
+ ИФК «Еврогрин» является профессиональным участником рынка ценных бумаг. 
+Мост посвящен играм на фондовом рынке.
+Прямая трансляция мероприятия доступна по адресу: http://live.vidicor.ru 
+'></a><br>
+<center><i><font size=2 color='#993300'>г. Екатеринбург</font></i></center><center><b><table bgcolor='ccddcc'><tr><td>Проводилась прямая трансляция</td><?tr></table></b></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	 Общество с ограниченной ответственностью «Инвестиционно-финансовая компания «Еврогрин» создана в апреле 2004 года в городе Екатеринбурге.
+ ИФК «Еврогрин» является профессиональным участником рынка ценных бумаг. 
+Мост посвящен играм на фондовом рынке.<br>
+<center>Прямая трансляция мероприятия доступна по адресу: http://live.vidicor.ru </center>
+        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 374</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Среда<br><b>03.12.2008</b><br>	</font>
+        </div>
+		<br><br><br>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Перспективы развития уральского автомобильного рынка. Стратегии автодилеров. 
+	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<a href=http://www.expert-ural.com/expert/images/logo_exp.jpg><img src=http://www.expert-ural.com/expert/images/logo_exp.jpg  alt='' border='0' align=top title='Перспективы развития уральского автомобильного рынка. Стратегии автодилеров.
+
+Организаторы: деловой региональный еженедельник «Эксперт-Урал», аналитический центр «Эксперт-Урал». 
+Участники соберутся 4 декабря 2008 г. в 12.00 в Доме актера.
+
+Поддержка:
+ 
+Цель круглого стола - обсудить актуальные стратегии развития автодилеров в условиях изменения экономической конъюнктуры, предложить эффективные менеджерские решения. 
+Свое видение тенденций и перспектив развития рынка представят ведущие российские консультанты и эксперты. 
+
+Ключевые вопросы для обсуждения: 
+
+- Каким будет региональный автомобильный рынок в 2009 году?
+
+- Как правильно выстроить систему управления автодилерским предприятием в условиях резкого изменения экономической конъюнктуры? Что может послужить источником роста и какие стратегии будут эффективны: российский и зарубежный опыт.
+
+- Стратегии географической экспансии региональных автодилеров и инвестиционная  привлекательность уральского рынка
+
+- Как выстроить стратегию развития сервисной инфраструктуры дилерского предприятия? 
+
+- Каковы тенденции в автостраховании, и как выстроить эффективное взаимодействие автодилеров и страховых компаний?
+
+- Что изменится в сфере автокредитования в ближайшие два года? Как повлияет ситуация в банковском секторе на рынок продаж автомобилей? 
+
+Приглашены к участию в качестве спикеров: 
+
+Андрей Комаров, директор практики по оказанию помощи компаниям автомобильной отрасли PricewaterhouseCoopers в России
+
+Кирилл Сидоренко, партнер, директор отдела бизнес - консультирования КПМГ
+
+Дмитрий Гулин, президент Ассоциации российских автомобильных дилеров «РОАД»
+
+Игорь Пономарев, председатель Совета директоров Группы компаний Genser
+
+Виктор Контеев, вице-мэр города Екатеринбурга
+
+Участники - руководители региональных автодилерских предприятий, консалтинговых, страховых, лизинговых компаний, банков.
+
+Обсуждаемые на круглом столе темы будут представлены широкой аудитории на региональном уровне. Результаты круглого стола будут опубликованы в журнале «Эксперт-Урал» 19 января 2008 года.
+
+Прямая трансляция мероприятия доступна по адресу: http://live.vidicor.ru  '></a><br>
+<center><i><font size=2 color='#993300'>Екатеринбург, Дом Актера, ул.8 Марта, 8 </font></i></center><center><b><table bgcolor='ccddcc'><tr><td>Проводилась прямая трансляция</td><?tr></table></b></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	Перспективы развития уральского автомобильного рынка. Стратегии автодилеров.
+<br>
+Организаторы: деловой региональный еженедельник «Эксперт-Урал», аналитический центр «Эксперт-Урал». 
+Участники соберутся 4 декабря 2008 г. в 12.00 в Доме актера.
+<br>
+Поддержка:
+<br> 
+Цель круглого стола - обсудить актуальные стратегии развития автодилеров в условиях изменения экономической конъюнктуры, предложить эффективные менеджерские решения. 
+Свое видение тенденций и перспектив развития рынка представят ведущие российские консультанты и эксперты. 
+<br>
+Ключевые вопросы для обсуждения: 
+<br>
+- Каким будет региональный автомобильный рынок в 2009 году?
+<br>
+- Как правильно выстроить систему управления автодилерским предприятием в условиях резкого изменения экономической конъюнктуры? Что может послужить источником роста и какие стратегии будут эффективны: российский и зарубежный опыт.
+<br>
+- Стратегии географической экспансии региональных автодилеров и инвестиционная  привлекательность уральского рынка
+<br>
+- Как выстроить стратегию развития сервисной инфраструктуры дилерского предприятия? 
+<br>
+- Каковы тенденции в автостраховании, и как выстроить эффективное взаимодействие автодилеров и страховых компаний?
+<br>
+- Что изменится в сфере автокредитования в ближайшие два года? Как повлияет ситуация в банковском секторе на рынок продаж автомобилей? 
+<br>
+Приглашены к участию в качестве спикеров: 
+<br>
+Андрей Комаров, директор практики по оказанию помощи компаниям автомобильной отрасли PricewaterhouseCoopers в России
+<br>
+Кирилл Сидоренко, партнер, директор отдела бизнес - консультирования КПМГ
+<br>
+Дмитрий Гулин, президент Ассоциации российских автомобильных дилеров «РОАД»
+<br>
+Игорь Пономарев, председатель Совета директоров Группы компаний Genser
+<br>
+Виктор Контеев, вице-мэр города Екатеринбурга
+<br>
+Участники - руководители региональных автодилерских предприятий, консалтинговых, страховых, лизинговых компаний, банков.
+<br>
+Обсуждаемые на круглом столе темы будут представлены широкой аудитории на региональном уровне. Результаты круглого стола будут опубликованы в журнале «Эксперт-Урал» 19 января 2008 года.
+<br>
+Прямая трансляция мероприятия доступна по адресу: http://live.vidicor.ru          </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 373</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Среда<br><b>03.12.2008</b><br>	</font>
+        </div>
+		<br><br><br>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Трансляция юбилея танцевального коллектива "Визави"	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<a href=http://www.pags.ru/academy_structure/faculty/gmu/picture/vizavy/2.jpg><img src=http://www.pags.ru/academy_structure/faculty/gmu/picture/vizavy/2.jpg  alt='' border='0' align=top title=''></a><br>
+<center><i><font size=2 color='#993300'>г. Екатеринбург, Актовый зал УГТУ-УПИ</font></i></center><center><b><table bgcolor='ccddcc'><tr><td>Проводилась прямая трансляция</td><?tr></table></b></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	4 декабря 2008 г., с 16:00 до 19:00 Мск. будет проводиться прямая трансляция вечера, посвященного юбилею танцевального коллектива. Трансляцию можно будет смотреть на сайте <a href='http://ustu.vidicor.ru'>http://ustu.vidicor.ru</a>        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 372</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Понедельник<br><b>01.12.2008</b><br>	</font>
+        </div>
+		<br><br><br><center><a href=rec.php?skin=1&lng=ru&dir=6378&var=1>
+					<img src="pictures/1.gif" alt="" border="0"></a> 
+</center>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Заседание Экспертного совета Конкурса инновационных проектов РФ.	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<a href=http://iconvention.ru/images/orel13.gif><img src=http://iconvention.ru/images/orel13.gif  alt='' border='0' align=top title='1 декабря по итогом заочной экспертизы состоялось заседание Экспертного совета Конкурса инновационных проектов. В результате экспертизы были отобраны 15 проектов, авторы которых выступят перед экспертами с презентациями в рамках Инновационного конвента 9 декабря.'></a><br>
+<center><i><font size=2 color='#993300'>г. Москва, "Интерфакс"</font></i></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	1 декабря по итогом заочной экспертизы состоялось заседание Экспертного совета Конкурса инновационных проектов. В результате экспертизы были отобраны 15 проектов, авторы которых выступят перед экспертами с презентациями в рамках Инновационного конвента 9 декабря.        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 371</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Вторник<br><b>25.11.2008</b><br>	</font>
+        </div>
+		<br><br><br>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Пресс-конференции  Владимира Соловьева и Николая Злобина в информационном агентстве Интерфакс	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<img src=pictures/default.jpg  alt='' border='0' align=top title=''><br>
+<center><i><font size=2 color='#993300'>г.Москва, "Интерфакс"</font></i></center><center><b><table bgcolor='ccddcc'><tr><td>Проводилась прямая трансляция</td><?tr></table></b></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	25 ноября 2008 г., 13:00   Пресс-конференция. Прямая трансляция.
+Тема: Выход книги В. Соловьева и Н. Злобина "Противостояние. Россия-США"  
+Участники:
+      Владимир Соловьев, писатель, теле и радиоведущий;
+      Николай Злобин, профессор, директор российских и азиатских программ Института мировой безопасности (Вашингтон, США), известный политолог в Америке.        </font>
+        </div>
+	</td>
+</table>
+
+	</table>
+	</center>
+	</td>
+	</tr>
+	</table>
+	</center>1..10
+<center><font face=Arial size=2>
+Страницы: <big><big><b>[<a href='main.php?skin=1&lng=ru&pos=1#title_dir'>1</a>]</b></big></big>  <a href='main.php?skin=1&lng=ru&pos=2#title_dir'>2</a>  <a href='main.php?skin=1&lng=ru&pos=3#title_dir'>3</a>  <a href='main.php?skin=1&lng=ru&pos=4#title_dir'>4</a>  <a href='main.php?skin=1&lng=ru&pos=5#title_dir'>5</a>  <a href='main.php?skin=1&lng=ru&pos=6#title_dir'>6</a>  <a href='main.php?skin=1&lng=ru&pos=7#title_dir'>7</a>  <a href='main.php?skin=1&lng=ru&pos=8#title_dir'>8</a>  <a href='main.php?skin=1&lng=ru&pos=9#title_dir'>9</a>  <a href='main.php?skin=1&lng=ru&pos=10#title_dir'>10</a>  <a href='main.php?skin=1&lng=ru&pos=11#title_dir'>11</a>  <a href='main.php?skin=1&lng=ru&pos=12#title_dir'>12</a>  <a href='main.php?skin=1&lng=ru&pos=13#title_dir'>13</a>  <a href='main.php?skin=1&lng=ru&pos=14#title_dir'>14</a>  <a href='main.php?skin=1&lng=ru&pos=15#title_dir'>15</a>  <a href='main.php?skin=1&lng=ru&pos=16#title_dir'>16</a>  <a href='main.php?skin=1&lng=ru&pos=17#title_dir'>17</a>  <a href='main.php?skin=1&lng=ru&pos=18#title_dir'>18</a>  <a href='main.php?skin=1&lng=ru&pos=19#title_dir'>19</a>  <a href='main.php?skin=1&lng=ru&pos=20#title_dir'>20</a>  <a href='main.php?skin=1&lng=ru&pos=21#title_dir'>21</a>  <a href='main.php?skin=1&lng=ru&pos=22#title_dir'>22</a>  <a href='main.php?skin=1&lng=ru&pos=23#title_dir'>23</a>  <a href='main.php?skin=1&lng=ru&pos=24#title_dir'>24</a>  <a href='main.php?skin=1&lng=ru&pos=25#title_dir'>25</a>  <a href='main.php?skin=1&lng=ru&pos=26#title_dir'>26</a>  <a href='main.php?skin=1&lng=ru&pos=27#title_dir'>27</a>  <a href='main.php?skin=1&lng=ru&pos=28#title_dir'>28</a>  <a href='main.php?skin=1&lng=ru&pos=29#title_dir'>29</a>  <a href='main.php?skin=1&lng=ru&pos=30#title_dir'>30</a>  <a href='main.php?skin=1&lng=ru&pos=31#title_dir'>31</a>  <a href='main.php?skin=1&lng=ru&pos=32#title_dir'>32</a>  <a href='main.php?skin=1&lng=ru&pos=33#title_dir'>33</a>  <a href='main.php?skin=1&lng=ru&pos=34#title_dir'>34</a>  <a href='main.php?skin=1&lng=ru&pos=35#title_dir'>35</a>  <a href='main.php?skin=1&lng=ru&pos=36#title_dir'>36</a>  <a href='main.php?skin=1&lng=ru&pos=37#title_dir'>37</a>  <a href='main.php?skin=1&lng=ru&pos=38#title_dir'>38</a> </font>	<form method=POST name=show_time action="main.php?skin=1&lng=ru">
+	<center>
+	<b>Показывать c даты</b> 
+				<input type=text name=day_start value=1 size=1>.
+		<input type=text name=mon_start value=1 size=1>.	
+		<input type=text name=year_start value=2001 size=2>
+		<b> до даты </b>
+		<input type=text name=day_stop value=7 size=1>.
+		<input type=text name=mon_stop value=6 size=1>.	
+		<input type=text name=year_stop value=2009 size=2>
+
+<p>
+	Показывать по  <input type=text name=count value=10 size=2>  записей на странице<p>
+	<input type=submit value=Запрос...>	<!-- Обновить -->	
+
+	</center>
+	</form> 	
+
+<br>
+</center>
+    <a href="errr.php?dir=0&lng=ru" class=menu>[Сообщить об ошибке]</a>
+    &nbsp;&nbsp;&nbsp;
+<a href=adminstart2.php?skin=1&lng=ru class=menu>[Администрировать]</a>
+<br>
+<br>
+
+<center>
+<table width="100%" bgcolor='#CCCCCC'>
+<td>
+<font face=Arial size=1>
+        (c) НПЦ Видикор, 2008.
+</font>
+</td>
+</table>
+</center></body>
+</html>

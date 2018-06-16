@@ -1,0 +1,20 @@
+<script language="Javascript"><!--
+function adminfocus() 
+{
+adminform.password.focus();
+};
+//--></SCRIPT>
+<body bgcolor='ADMIN1BGCOLOR' onLoad='adminfocus()'>
+<table width=100% height=100% >
+<tr>
+<td align=center valign=middle>
+
+<form name='adminform' action="adminverify.php?skin=2&lng=ru" method=POST>
+Введите пароль администратора:
+<input type=password name="password" size=20 maxlength=500>
+<input type=submit value="Войти">
+</form>
+
+</td>
+</tr>
+</table>

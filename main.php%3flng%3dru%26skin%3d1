@@ -1,0 +1,738 @@
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+<!-- ========================================== Начало вывода страницы ========================================== -->
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Vidicor: Video-On-Line, Video-On-Demand, Video-On-Schedule ru</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="css/styletab.css" rel="stylesheet" type="text/css">
+<link href="css/style_main.css" rel="stylesheet" type="text/css"> 
+<link href="css/style2.css" rel="stylesheet" type="text/css"> 
+
+<SCRIPT language='JScript' src='rmxfrecv.js'></SCRIPT>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+  var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+  if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body><table bgcolor=#B3B4C1 border="1" width="100%" rules="none">
+  <tr>
+    <td width="80%" valign="middle" align="center">
+      <p><font size=2>
+        &copy; Cредства передачи видео через Интернет, примененные на этом сайте, разработаны
+        <a href="http://www.vidicor.ru">Научно-производственным центром "Vidicor Ltd."</a>
+        <br>на базе исследований 
+        <a href="/vslRu/index.htm" target="_blank"> 
+        Научно-исследовательского центра мультимедиа технологий</a>
+        <a href="http://www.imm.uran.ru">Института&nbsp;математики&nbsp;и&nbsp;механики</a>
+        <a href="http://www.uran.ru">Уральского&nbsp;отделения</a>
+        <a href="http://www.ras.ru">Российской&nbsp;академии&nbsp;наук</a>
+        </font> 
+      </p>
+    </td>
+	<td>
+	      <a href="http://vidicor.ru" target="_blank"><img width="60%"  src="/pictures/vidicor.jpg" ></a>
+	</td>
+  </tr>
+</table>
+<br/><!-- Кнопки "Выше" и "Наверх" -->
+
+<center>
+<table border=0 width="100%">
+  <tr>
+    <td width="20%" align="left">
+	<a href="main.php?base=bases&lng=ru"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('home','','lng/ru/images/home1.gif',1)" 
+	onMouseDown="MM_swapImage('home','','lng/ru/images/home3.gif',1)">
+	<img src="lng/ru/images/home2.gif" name="home"  border="0"  alt=""></a>
+
+      &nbsp;
+      <a href="main.php?skin=1&lng=ru"
+	onMouseOut="MM_swapImgRestore()" 
+	onMouseUp="MM_swapImgRestore()" 
+	onMouseOver="MM_swapImage('up','','lng/ru/images/up1.gif',1)" 
+	onMouseDown="MM_swapImage('up','','lng/ru/images/up3.gif',1)">
+	<img src="lng/ru/images/up2.gif" name="up"  border="0"  alt=""></a>
+
+      &nbsp;
+    </td>
+
+    <td>
+
+<table border=0 width="100%" valign=top>
+  <tr valign=top>
+    <td width="100%" align="left" valign=top>
+      <a href="http://www.vidicor.ru" class=menu target="_blank">О системе</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/gb.shtml" class=menu target="_blank">Гостевая книга</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamRef.htm" class=menu target="_blank">Ссылки</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/webCamPress.htm" class=menu target="_blank">Пресса о нас</a>
+      &nbsp;
+      <a href="http://webtv.uran.ru/ru/VidicomViewer_help.htm" class=menu target="_blank">Помощь</a>
+      &nbsp;
+<a class=menu href=main.php?lng=en&skin=1> <b>English</b> </a>    &nbsp;
+<font size=2>	<a href="http://vidicor.ru/SatReceiving.htm" target="_blank">[Как принимать спутниковую трансляцию?]</a> </font>
+    </td>
+  </tr>
+</table>
+    </td>
+</table>
+</center>
+
+<br/>
+
+<table valign="top" width="100%" cellpadding=0 cellspacing=0>
+<tr>
+	<td valign="top" align="left" width="0">
+	<div style="width:257px;max-width:257px;margin:0;padding:0;">
+
+<!-- Выдача перечня представлений -->
+<form name=search style="display:inline" method=POST action="main.php?lng=ru&skin=1">
+	<select size=1 name="select_skin" onChange="goto_page(this.options)">
+	<option selected value=1> Афиша (обратно-хронологически)
+ <option   value=2> Каталог с деревом (тематически)
+ <option   value=3> Каталог без дерева (тематически)
+ <option   value=4> Таблица без дерева
+ <option   value=5> Таблица с деревом
+ <option   value=6> Тестовое представление 1
+ <option   value=7> Тестовое представление 2
+ <option   value=8> Тестовое представление 3
+ 	</select>
+
+
+<!-- Поиск -->
+	<input type=text name=find_str value="" size=23>
+	<input type=submit value= Искать... >
+	
+</form>
+
+<!-- Приглашение к созданию/редактированию/удалению скинов -->
+	<script style="display:none">
+function goto_page(options) 
+	{
+	var url = options[options.selectedIndex].value;
+	var howdy = window.open("main.php?lng=ru&skin="+url, target="_top");
+	}
+</script>	</div>
+	</td>
+
+	<td valign="middle" align="center" width="100%" valign="bottom">
+
+<!-- ############################## Название ################################ -->
+	<font class=Name color=#2b0079>
+Афиша (обратно-хронологически)	</font>
+
+<!-- ############################## Маркер [Редактирование] ################################ -->
+		</font>
+
+	<center>(шаблон 1, скин 1)</center>
+
+	<br><br>
+	<center>
+	Кнопки с цифрами -- запуск проигрывания с разными уровнями качества<br>
+	Кнопки с желтой папкой -- войти в подраздел
+	</center>
+	</td>
+
+	  <!-- для центрирования названия -->
+	<td width="0">
+	<div style="width:257px;min-width:257px;margin:0;padding:0;">
+	</div>
+	</td>
+	</tr>
+</table>
+
+<br/>
+
+<center><font face=Arial size=2>
+Страницы: <big><big><b>[<a href='main.php?lng=ru&skin=1&pos=1#title_dir'>1</a>]</b></big></big>  <a href='main.php?lng=ru&skin=1&pos=2#title_dir'>2</a>  <a href='main.php?lng=ru&skin=1&pos=3#title_dir'>3</a>  <a href='main.php?lng=ru&skin=1&pos=4#title_dir'>4</a>  <a href='main.php?lng=ru&skin=1&pos=5#title_dir'>5</a>  <a href='main.php?lng=ru&skin=1&pos=6#title_dir'>6</a>  <a href='main.php?lng=ru&skin=1&pos=7#title_dir'>7</a>  <a href='main.php?lng=ru&skin=1&pos=8#title_dir'>8</a>  <a href='main.php?lng=ru&skin=1&pos=9#title_dir'>9</a>  <a href='main.php?lng=ru&skin=1&pos=10#title_dir'>10</a>  <a href='main.php?lng=ru&skin=1&pos=11#title_dir'>11</a>  <a href='main.php?lng=ru&skin=1&pos=12#title_dir'>12</a>  <a href='main.php?lng=ru&skin=1&pos=13#title_dir'>13</a>  <a href='main.php?lng=ru&skin=1&pos=14#title_dir'>14</a>  <a href='main.php?lng=ru&skin=1&pos=15#title_dir'>15</a>  <a href='main.php?lng=ru&skin=1&pos=16#title_dir'>16</a>  <a href='main.php?lng=ru&skin=1&pos=17#title_dir'>17</a>  <a href='main.php?lng=ru&skin=1&pos=18#title_dir'>18</a>  <a href='main.php?lng=ru&skin=1&pos=19#title_dir'>19</a>  <a href='main.php?lng=ru&skin=1&pos=20#title_dir'>20</a>  <a href='main.php?lng=ru&skin=1&pos=21#title_dir'>21</a>  <a href='main.php?lng=ru&skin=1&pos=22#title_dir'>22</a>  <a href='main.php?lng=ru&skin=1&pos=23#title_dir'>23</a>  <a href='main.php?lng=ru&skin=1&pos=24#title_dir'>24</a>  <a href='main.php?lng=ru&skin=1&pos=25#title_dir'>25</a>  <a href='main.php?lng=ru&skin=1&pos=26#title_dir'>26</a>  <a href='main.php?lng=ru&skin=1&pos=27#title_dir'>27</a>  <a href='main.php?lng=ru&skin=1&pos=28#title_dir'>28</a>  <a href='main.php?lng=ru&skin=1&pos=29#title_dir'>29</a>  <a href='main.php?lng=ru&skin=1&pos=30#title_dir'>30</a>  <a href='main.php?lng=ru&skin=1&pos=31#title_dir'>31</a>  <a href='main.php?lng=ru&skin=1&pos=32#title_dir'>32</a>  <a href='main.php?lng=ru&skin=1&pos=33#title_dir'>33</a>  <a href='main.php?lng=ru&skin=1&pos=34#title_dir'>34</a>  <a href='main.php?lng=ru&skin=1&pos=35#title_dir'>35</a> </font></center><table border="0" style="width:100%;max-width:100%;margin:0;padding:0;cellpadding:0;cellspacing:0" cellpadding="0" cellspacing="0">
+	<tr>
+	<td id="idItemsTd" align="center" valign="top" 
+		style="margin:0;padding:0;width:expression((document.body.clientWidth - 257) + 'px');min-width:width:expression((document.body.clientWidth - document.getElementById('idTreeShowTd').clientWidth) + 'px');">
+
+<!-- ####################################### Вывод основной части ######################################## -->
+
+		<!-- ----------------------------------------------------------------------------- -->
+		<table bgcolor=#99CCFF class="recitem" border=1 width=100% Title="Set of objects">
+		<!-- ----------------------------------------------------------------------------- -->
+
+		
+	<center>
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 349</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Пятница<br><b>02.05.2008</b><br>	</font>
+        </div>
+		<br><br><br><script language="JavaScript">SecondImage0='pictures/open1.gif';</script><a href="main.php?lng=ru&dir=6311" onMouseOver="{OrigImage0=img0.src; img0.src=SecondImage0} " onMouseOut="img0.src=OrigImage0"><img alt="" name="img0" border="0" src="pictures/open2.gif" onLoad="TempImage0=new Image(0,0); TempImage0.src=SecondImage0"></a>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	2 мая  проходила традиционная екатеринбургская эстафета «Весна Победы». 	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<a href=http://archive.vidicor.ru/picForArch/0045_zabeg_06/af_estafeta_06.jpg><img src=http://archive.vidicor.ru/picForArch/0045_zabeg_06/af_estafeta_06.jpg  alt='' border='0' align=top title='2 мая  проходила традиционная екатеринбургская эстафета «Весна Победы». В эстафете приняло участие порядка 220 команд из различных городов и районов Свердловской области. Только Екатеринбург был представлен 160 командами. Участие в эстафете приняли даже кандидаты в сборную России по легкой атлетике, которая отправится в Пекин на предстоящие олимпийские игры. 
+
+Техническое сопровождение эстафеты обеспечивал “ООО Научно-производственный центр Видикор”. На всей протяженности маршрута эстафеты были установлены видеокамеры, сигнал от которых передавался через системы “Vidicor-BHD” (http://vidicor.ru) в офис компании “Фьючер-медиа” и транслировался на экраны, установленные в центре города. 
+'></a><br>
+<center><i><font size=2 color='#993300'>Екатерибург</font></i></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	2 мая  проходила традиционная екатеринбургская эстафета «Весна Победы». В эстафете приняло участие порядка 220 команд из различных городов и районов Свердловской области. Только Екатеринбург был представлен 160 командами. Участие в эстафете приняли даже кандидаты в сборную России по легкой атлетике, которая отправится в Пекин на предстоящие олимпийские игры. 
+<br>
+Техническое сопровождение эстафеты обеспечивал “ООО Научно-производственный центр Видикор”. На всей протяженности маршрута эстафеты были установлены видеокамеры, сигнал от которых передавался через системы “Vidicor-BHD” (http://vidicor.ru) в офис компании “Фьючер-медиа” и транслировался на экраны, установленные в центре города. 
+        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 348</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Среда<br><b>30.04.2008</b><br>	</font>
+        </div>
+		<br><br><br><script language="JavaScript">SecondImage1='pictures/open1.gif';</script><a href="main.php?lng=ru&dir=6297" onMouseOver="{OrigImage1=img1.src; img1.src=SecondImage1} " onMouseOut="img1.src=OrigImage1"><img alt="" name="img1" border="0" src="pictures/open2.gif" onLoad="TempImage1=new Image(0,0); TempImage1.src=SecondImage1"></a>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Офтальмологическая конференция. Живая хирургия.	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<a href=http://Archive.vidicor.ru/images/Eay2008.JPG ><img src=http://Archive.vidicor.ru/images/Eay2008.JPG   alt='' border='0' align=top title='Офтальмологическая конференция. Живая хирургия. На нашем сайте, вы можете просмотреть записи операций.'></a><br>
+<center><i><font size=2 color='#993300'>Больница РЖД, г. Челябинск</font></i></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	Офтальмологическая конференция. Живая хирургия. На нашем сайте, вы можете просмотреть записи операций.        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 347</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Понедельник<br><b>31.03.2008</b><br>	</font>
+        </div>
+		<br><br><br><script language="JavaScript">SecondImage2='pictures/open1.gif';</script><a href="main.php?lng=ru&dir=6291" onMouseOver="{OrigImage2=img2.src; img2.src=SecondImage2} " onMouseOut="img2.src=OrigImage2"><img alt="" name="img2" border="0" src="pictures/open2.gif" onLoad="TempImage2=new Image(0,0); TempImage2.src=SecondImage2"></a>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Фрагменты конференции Российской ассоциации бизнес образования.	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<img src=pictures/default.jpg  alt='' border='0' align=top title='Фрагменты конференции Российской ассоциации бизнес образования.'><br>
+<center><i><font size=2 color='#993300'>УГТУ-УПИ, г. Екатеринбург.</font></i></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	Фрагменты конференции Российской ассоциации бизнес образования.        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 346</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Вторник<br><b>25.03.2008</b><br><br>17.00:19.00	</font>
+        </div>
+		<br><br><br><script language="JavaScript">SecondImage3='pictures/open1.gif';</script><a href="main.php?lng=ru&dir=6287" onMouseOver="{OrigImage3=img3.src; img3.src=SecondImage3} " onMouseOut="img3.src=OrigImage3"><img alt="" name="img3" border="0" src="pictures/open2.gif" onLoad="TempImage3=new Image(0,0); TempImage3.src=SecondImage3"></a>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Лекция А.Н.Терехова для студентов матмеха УрГУ	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<img src=http://www.russee.com/upload/Terexov.JPG  alt='' border='0' align=top title='А.Н.Терехов, Член правления НП РУССОФТ, Генеральный директор компании ЛАНИТ-ТЕРКОМ, Директор НИИ ИТ СПбГУ, Заведующий кафедрой системного программирования СПбГУ, профессор.
+
+Фрагмент 1
+
+Фрагмент 2
+
+Фрагмент 3
+
+Фрагмент 4
+
+Фрагмент 5
+
+Фрагмент 6
+'><br>
+<center><i><font size=2 color='#993300'>г.Екатеринбург, Уральский госуниверситет им. А.М.Горького </font></i></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	А.Н.Терехов, Член правления НП РУССОФТ, Генеральный директор компании ЛАНИТ-ТЕРКОМ, Директор НИИ ИТ СПбГУ, Заведующий кафедрой системного программирования СПбГУ, профессор.
+<p>
+<a href="http://archive.vidicor.ru/rec.php?skin=1&lng=ru&dir=6277&var=1">Фрагмент 1</a>
+<br>
+<a href="http://archive.vidicor.ru/rec.php?skin=1&lng=ru&dir=6278&var=1">Фрагмент 2</a>
+<br>
+<a href="http://archive.vidicor.ru/rec.php?skin=1&lng=ru&dir=6279&var=1">Фрагмент 3</a>
+<br>
+<a href="http://archive.vidicor.ru/rec.php?skin=1&lng=ru&dir=6280&var=1">Фрагмент 4</a>
+<br>
+<a href="http://archive.vidicor.ru/rec.php?skin=1&lng=ru&dir=6284&var=1">Фрагмент 5</a>
+<br>
+<a href="http://archive.vidicor.ru/rec.php?skin=1&lng=ru&dir=6285&var=1">Фрагмент 6</a>
+        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 345</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Понедельник<br><b>24.03.2008</b><br><br>15.50:18.00	</font>
+        </div>
+		<br><br><br><script language="JavaScript">SecondImage4='pictures/open1.gif';</script><a href="main.php?lng=ru&dir=6286" onMouseOver="{OrigImage4=img4.src; img4.src=SecondImage4} " onMouseOut="img4.src=OrigImage4"><img alt="" name="img4" border="0" src="pictures/open2.gif" onLoad="TempImage4=new Image(0,0); TempImage4.src=SecondImage4"></a>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Лекция А.Н.Терехова на матмехе УрГУ "Преподавание программной инженерии в России"
+	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<img src=http://www.russee.com/upload/Terexov.JPG  alt='' border='0' align=top title='А.Н.Терехов, Член правления НП РУССОФТ, Генеральный директор компании ЛАНИТ-ТЕРКОМ, Директор НИИ ИТ СПбГУ, Заведующий кафедрой системного программирования СПбГУ, профессор.
+
+Фрагмент 1
+
+Фрагмент 2
+
+Фрагмент 3
+
+Фрагмент 4
+
+Фрагмент 5
+
+Фрагмент 6
+'><br>
+<center><i><font size=2 color='#993300'>г.Екатеринбург, Уральский госуниверситет им. А.М.Горького </font></i></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	А.Н.Терехов, Член правления НП РУССОФТ, Генеральный директор компании ЛАНИТ-ТЕРКОМ, Директор НИИ ИТ СПбГУ, Заведующий кафедрой системного программирования СПбГУ, профессор.
+<p>
+<a href="http://archive.vidicor.ru/rec.php?skin=1&lng=ru&dir=6277&var=1">Фрагмент 1</a>
+<br>
+<a href="http://archive.vidicor.ru/rec.php?skin=1&lng=ru&dir=6278&var=1">Фрагмент 2</a>
+<br>
+<a href="http://archive.vidicor.ru/rec.php?skin=1&lng=ru&dir=6279&var=1">Фрагмент 3</a>
+<br>
+<a href="http://archive.vidicor.ru/rec.php?skin=1&lng=ru&dir=6280&var=1">Фрагмент 4</a>
+<br>
+<a href="http://archive.vidicor.ru/rec.php?skin=1&lng=ru&dir=6284&var=1">Фрагмент 5</a>
+<br>
+<a href="http://archive.vidicor.ru/rec.php?skin=1&lng=ru&dir=6285&var=1">Фрагмент 6</a>
+        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 344</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Воскресенье<br><b>23.03.2008</b><br>	</font>
+        </div>
+		<br><br><br><center><a href=rec.php?lng=ru&skin=1&dir=6270&var=1>
+					<img src="pictures/1.gif" alt="" border="0"></a> 
+</center>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Прямая трансляция встречи руководства ФИМТЭМ с абитуриентами 
+	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<img src=http://ustu.ru/_DSC4874.jpg?id=4974&np=yes  width=320 height=240  alt='' border='0' align=top title=' 23 марта с 12.00 до 15.00 в Зале Ученого Совета состоится встреча руководителей факультета ИМТЭМ и заведующих кафедр с будущими абитуриентами и их родителями. Встреча будет транслироваться через Интернет. Программа трансляции  http://www.live.vidicor.ru 
+Возможна организация Интернет-телемоста будущих абитуриентов УГТУ-УПИ в филиалах, имеющих соответствующее оборудование.
+Предложения по участию в телемосте можно представить зам.декану ФИМТЭМ по НИР Кругликову С.В. по адресу: svk@imm.uran.ru  
+'><br>
+<center><i><font size=2 color='#993300'>г. Екатеринбург УГТУ-УПИ</font></i></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	 23 марта с 12.00 до 15.00 в Зале Ученого Совета состоится встреча руководителей факультета ИМТЭМ и заведующих кафедр с будущими абитуриентами и их родителями. Встреча будет транслироваться через Интернет. Программа трансляции  http://www.live.vidicor.ru 
+Возможна организация Интернет-телемоста будущих абитуриентов УГТУ-УПИ в филиалах, имеющих соответствующее оборудование.
+Предложения по участию в телемосте можно представить зам.декану ФИМТЭМ по НИР Кругликову С.В. по адресу: svk@imm.uran.ru  
+        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 343</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Понедельник<br><b>17.03.2008</b><br>	</font>
+        </div>
+		<br><br><br>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Пример учебного занятия через видеомост	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<img src=pictures/default.jpg  alt='' border='0' align=top title='Доцент факультета ФИМТЭМ С.В.Кругликов проводит 3-часовое занятие со студентами через интернет-видеомост. Мост осуществлён с помощью системы видеосвязи, разработанной уральским Научно-производственным центром "Видикор".
+
+С рабочего места преподавателя в аудиторию студентов передается 2 видеопотока: (1) изображение с видеокамеры, накправленной на преподавателя, (2) изображение экрана ноутбука с презентацией. Студенты в удаленной аудитории видят одновременно преподавателя на большеформатной (50") LCD панели и презентацию с ноутбука преподавателя на экране видеопроектора. 
+
+В студенческой аудитории размещены 2 видеокамеры: одна показывает общий вид аудитории, другая -- классную доску. Преподаватель видит видео одновременно с 2-х этих камер.
+
+При этом обеспечивается двусторонняяч синхронная звуковая громкая связь.
+
+Во время занятия преподаватель излагал материал, сопровождая его слайдами, проводил опросы студентов, вел активные диалоги, вызывая студентов к доске.'><br>
+<center><i><font size=2 color='#993300'>г.Екатеринбург, УГТУ-УПИ</font></i></center><center><b><table bgcolor='ccddcc'><tr><td>Проводилась прямая трансляция</td><?tr></table></b></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	Доцент факультета ФИМТЭМ С.В.Кругликов проводит 3-часовое занятие со студентами через интернет-видеомост. Мост осуществлён с помощью системы видеосвязи, разработанной уральским Научно-производственным центром "Видикор".
+<p>
+С рабочего места преподавателя в аудиторию студентов передается 2 видеопотока: (1) изображение с видеокамеры, накправленной на преподавателя, (2) изображение экрана ноутбука с презентацией. Студенты в удаленной аудитории видят одновременно преподавателя на большеформатной (50") LCD панели и презентацию с ноутбука преподавателя на экране видеопроектора. 
+<br>
+В студенческой аудитории размещены 2 видеокамеры: одна показывает общий вид аудитории, другая -- классную доску. Преподаватель видит видео одновременно с 2-х этих камер.
+<br>
+При этом обеспечивается двусторонняяч синхронная звуковая громкая связь.
+<p>
+Во время занятия преподаватель излагал материал, сопровождая его слайдами, проводил опросы студентов, вел активные диалоги, вызывая студентов к доске.        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 342</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Четверг<br><b>21.02.2008</b><br>	</font>
+        </div>
+		<br><br><br><script language="JavaScript">SecondImage7='pictures/open1.gif';</script><a href="main.php?lng=ru&dir=6265" onMouseOver="{OrigImage7=img7.src; img7.src=SecondImage7} " onMouseOut="img7.src=OrigImage7"><img alt="" name="img7" border="0" src="pictures/open2.gif" onLoad="TempImage7=new Image(0,0); TempImage7.src=SecondImage7"></a>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Конференция фурнала "Деловой квартал" Маркетинг услуг: продавая незримое	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<img src=pictures/default.jpg  alt='' border='0' align=top title='Конференция фурнала "Деловой квартал" Маркетинг услуг: продавая незримое
+
+ТЕМЫ КОНФЕРЕНЦИИ: 
+- Чем отличается маркетинг услуг от маркетинга товаров?
+- На что делать ставку: на стандартизацию бизнес-процессов или персонал? 
+- Особенности рекламы услуг
+- Продвижение через Интернет
+- Партизанский маркетинг услуг 
+- Маркетинг без бюджета'><br>
+<center><i><font size=2 color='#993300'></font></i></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	Конференция фурнала "Деловой квартал" Маркетинг услуг: продавая незримое
+<br>
+ТЕМЫ КОНФЕРЕНЦИИ: <br>
+- Чем отличается маркетинг услуг от маркетинга товаров?<br>
+- На что делать ставку: на стандартизацию бизнес-процессов или персонал?<br> 
+- Особенности рекламы услуг<br>
+- Продвижение через Интернет
+<br>- Партизанский маркетинг услуг 
+- Маркетинг без бюджета<br>        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 341</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Пятница<br><b>15.02.2008</b><br>	</font>
+        </div>
+		<br><br><br><script language="JavaScript">SecondImage8='pictures/open1.gif';</script><a href="main.php?lng=ru&dir=6262" onMouseOver="{OrigImage8=img8.src; img8.src=SecondImage8} " onMouseOut="img8.src=OrigImage8"><img alt="" name="img8" border="0" src="pictures/open2.gif" onLoad="TempImage8=new Image(0,0); TempImage8.src=SecondImage8"></a>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Международный экономический форум в г.Красноярске	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<a href=http://smartservices.ru/><img src=pictures/default.jpg  alt='' border='0' align=top title='ООО "СмартСервис" проводит прямую трансляцию с Международного экономического форума, проводимого в г. Красноярске 15 и 16 февраля 2008 г.
+'></a><br>
+<center><i><font size=2 color='#993300'>г.Красноярск</font></i></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	ООО "СмартСервис" проводит прямую трансляцию с Международного экономического форума, проводимого в г. Красноярске 15 и 16 февраля 2008 г.
+        </font>
+        </div>
+	</td>
+</table>
+
+
+<table  bgcolor=#99CCFF width="95%" border=1 class="recitem"> 
+
+<TR>
+
+	<td valign="top" width="70px" align="center">
+        <div align="left"><font face="Georgia, Times New Roman, Times, serif" color="#000000"><u>
+
+ 	<center>N&deg; 340</center></u></font>
+
+        </div>
+	<br>
+	<br>
+        <div align="center">
+	<font face=Arial size=2>
+	Четверг<br><b>14.02.2008</b><br>	</font>
+        </div>
+		<br><br><br>	</td>
+
+
+	<td> 
+        <div align="center"><font size=2 face="Georgia, Times New Roman, Times, serif" color="#aa0000"><b><BIG><BIG>
+	Видеомост с Майком Тайсоном Майами -- Самара	</BIG></BIG></b></font></div>
+        <SMALL><SMALL><br></SMALL></SMALL>
+
+	<!-- Вывод картинки в Афише -->
+
+        <div align="center">
+		<font color="#000000">
+		<img src=http://www.boxnews.com.ua/photos/92/mike-tyson93.jpg  alt='' border='0' align=top title='Видеомост с Майком Тайсоном Майами -- Самара'><br>
+<center><i><font size=2 color='#993300'>Телекомпания MaksTV (Майами, США) -- Телекомпания СКАТ (Самара, Россия)</font></i></center><center><b><table bgcolor='ccddcc'><tr><td>Проводилась прямая трансляция</td><?tr></table></b></center>                </font>
+        </div>
+  	<hr>
+        <div class="scroll" align="center" style="text-align:justify;">
+	<font face="Arial" size=2 color="#000000">
+	Видеомост с Майком Тайсоном Майами -- Самара        </font>
+        </div>
+	</td>
+</table>
+
+	</table>
+	</center>
+	</td>
+	</tr>
+	</table>
+	</center>1..10
+<center><font face=Arial size=2>
+Страницы: <big><big><b>[<a href='main.php?lng=ru&skin=1&pos=1#title_dir'>1</a>]</b></big></big>  <a href='main.php?lng=ru&skin=1&pos=2#title_dir'>2</a>  <a href='main.php?lng=ru&skin=1&pos=3#title_dir'>3</a>  <a href='main.php?lng=ru&skin=1&pos=4#title_dir'>4</a>  <a href='main.php?lng=ru&skin=1&pos=5#title_dir'>5</a>  <a href='main.php?lng=ru&skin=1&pos=6#title_dir'>6</a>  <a href='main.php?lng=ru&skin=1&pos=7#title_dir'>7</a>  <a href='main.php?lng=ru&skin=1&pos=8#title_dir'>8</a>  <a href='main.php?lng=ru&skin=1&pos=9#title_dir'>9</a>  <a href='main.php?lng=ru&skin=1&pos=10#title_dir'>10</a>  <a href='main.php?lng=ru&skin=1&pos=11#title_dir'>11</a>  <a href='main.php?lng=ru&skin=1&pos=12#title_dir'>12</a>  <a href='main.php?lng=ru&skin=1&pos=13#title_dir'>13</a>  <a href='main.php?lng=ru&skin=1&pos=14#title_dir'>14</a>  <a href='main.php?lng=ru&skin=1&pos=15#title_dir'>15</a>  <a href='main.php?lng=ru&skin=1&pos=16#title_dir'>16</a>  <a href='main.php?lng=ru&skin=1&pos=17#title_dir'>17</a>  <a href='main.php?lng=ru&skin=1&pos=18#title_dir'>18</a>  <a href='main.php?lng=ru&skin=1&pos=19#title_dir'>19</a>  <a href='main.php?lng=ru&skin=1&pos=20#title_dir'>20</a>  <a href='main.php?lng=ru&skin=1&pos=21#title_dir'>21</a>  <a href='main.php?lng=ru&skin=1&pos=22#title_dir'>22</a>  <a href='main.php?lng=ru&skin=1&pos=23#title_dir'>23</a>  <a href='main.php?lng=ru&skin=1&pos=24#title_dir'>24</a>  <a href='main.php?lng=ru&skin=1&pos=25#title_dir'>25</a>  <a href='main.php?lng=ru&skin=1&pos=26#title_dir'>26</a>  <a href='main.php?lng=ru&skin=1&pos=27#title_dir'>27</a>  <a href='main.php?lng=ru&skin=1&pos=28#title_dir'>28</a>  <a href='main.php?lng=ru&skin=1&pos=29#title_dir'>29</a>  <a href='main.php?lng=ru&skin=1&pos=30#title_dir'>30</a>  <a href='main.php?lng=ru&skin=1&pos=31#title_dir'>31</a>  <a href='main.php?lng=ru&skin=1&pos=32#title_dir'>32</a>  <a href='main.php?lng=ru&skin=1&pos=33#title_dir'>33</a>  <a href='main.php?lng=ru&skin=1&pos=34#title_dir'>34</a>  <a href='main.php?lng=ru&skin=1&pos=35#title_dir'>35</a> </font>	<form method=POST name=show_time action="main.php?skin=1&lng=ru">
+	<center>
+	<b>Показывать c даты</b> 
+				<input type=text name=day_start value=1 size=1>.
+		<input type=text name=mon_start value=1 size=1>.	
+		<input type=text name=year_start value=2001 size=2>
+		<b> до даты </b>
+		<input type=text name=day_stop value=7 size=1>.
+		<input type=text name=mon_stop value=5 size=1>.	
+		<input type=text name=year_stop value=2008 size=2>
+
+<p>
+	Показывать по  <input type=text name=count value=10 size=2>  записей на странице<p>
+	<input type=submit value=Запрос...>	<!-- Обновить -->	
+
+	</center>
+	</form> 	
+
+<br>
+</center>
+	<a href="errr.php?dir=0&lng=ru" class=menu>[Сообщить об ошибке]</a>
+	&nbsp;&nbsp;&nbsp;
+<a href=adminstart.php?lng=ru&skin=1 class=menu>[Администрировать]</a>
+<br>
+<br>
+
+<center>
+<table width="100%" bgcolor='#CCCCCC'>
+<td>
+<font face=Arial size=1>
+		(c) НПЦ Видикор, 2008.
+</font>
+</td>
+</table>
+</center></body>
+</html>

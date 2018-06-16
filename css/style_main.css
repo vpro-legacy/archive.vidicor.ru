@@ -1,0 +1,10 @@
+.Name {text-align:center;font-weight: bold;color:black;font-size:28px;font-family:Arial;text-decoration:none;}
+
+.A1 {text-align:center;background-color: #B3B4C1; color:#FFFF99; font-size:14px; font-family:Arial Narrow; text-decoration:none;}
+.A1:hover {text-align:center;font-weight: normal;background-color: #FFFF99; color:#FF0000; font-size:14px; font-family:Arial Narrow; text-decoration:none;}
+
+.menu {text-align:center;background-color: #eeeeee; color:black; font-size:16px; font-family:Arial Narrow; text-decoration:none;}
+.menu:hover {text-align:center;background-color: #B3B4C1; color:#FFFF00; font-size:16px; font-family:Arial Narrow; text-decoration:none;}
+
+.print {text-align:center;color:black;font-size:6px;font-family:Arial;text-decoration:none;}
+
